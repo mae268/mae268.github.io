@@ -1,0 +1,50 @@
+img {
+	width: 100%;
+}
+
+#indigo {
+	position: fixed;
+	top: -10px;
+	left: -10px;
+	animation: show 3s infinite;
+}
+
+@keyframes show {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 0.5;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+#background {
+	position: fixed;
+	top: -10px;
+	left: -10px;
+}
+
+#title-text {
+	position: fixed;
+	left: 12vw;
+	top: 10vh;
+	width: 78vw;
+}
+
+#arrow {
+	position: fixed;
+	width: 6.5vw;
+	bottom: 10vh;
+	right: 2.5vw;
+	opacity: 0%;
+	transition: opacity 1.5s ease;
+}
+
+#arrow:hover {
+	opacity: 100%;
+}
