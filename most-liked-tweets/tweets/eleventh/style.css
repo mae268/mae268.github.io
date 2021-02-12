@@ -13,7 +13,7 @@ body {
 	position: absolute;
 	top: -1vh;
 	left: 0vw;
-	height: 51vh;
+	height: 71.6vh;
 	width: 30vw;
 }
 
@@ -22,31 +22,10 @@ body {
 	font-family: acier-bat-outline,sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 20vw;
+	font-size: 22vw;
 	color: white;
-	padding: 10vh 21vw 18vh 5vw;
-}
-
-#context img {
-	position: absolute;
-	top: 50vh;
-	left: 0vw;
-	padding: 0.75vh 0vw 0vh 0vw;
-	width: 30vw;
-	height: 20vh;
-}
-
-#context-info {
-	position: absolute;
-	font-family: proxima-nova,sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	width: 25vw;
-	font-size: 1vw;
-	color: white;
-	padding: 2vh 0vw 0vh 2vw;
-	top: 51vh;
-	left: 0vw;
+	top: 10vh;
+	padding: 20vh 0vw 0vh 2vw;
 }
 
 #grid img {
@@ -90,6 +69,6 @@ body {
 .tweet {
 	position: absolute;
 	left: 45vw;
-	top: 10vh;
+	top: 0vh;
 	width: 100vw;
 }
