@@ -1,0 +1,96 @@
+body {
+	overflow: hidden;
+}
+
+.rectangles {
+	position: absolute;
+	width: 30vw;
+	left: 0vw;
+}
+
+#rank img {
+	position: absolute;
+	left: 0vw;
+	height: 40vh;
+	width: 32vw;
+	top: -1vh;
+}
+
+#n-rank {
+	position: absolute;
+	font-family: acier-bat-outline,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20vw;
+	color: white;
+	padding: 10vh 21vw 18vh 5vw;
+	top: -9vh;
+}
+
+#context img {
+	position: absolute;
+	top: 38.9vh;
+	left: 0vw;
+	padding: 0.75vh 0vw 0vh 0vw;
+	width: 32vw;
+	height: 31.5vh;
+}
+
+#context-info {
+	position: absolute;
+	font-family: proxima-nova,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	width: 30vw;
+	font-size: 1vw;
+	color: white;
+	padding: 1.5vh 0vw 0vh 1.5vw;
+	top: 41vh;
+	left: 0vw;
+	overflow: scroll;
+}
+
+#grid img {
+	position: absolute;
+	top: 71.25vh;
+	left: 0vw;
+	padding: 0.45vh 0vw 10vh 0vw;
+	width: 32vw;
+	height: 10vh;
+}
+
+#grid-info {
+	position: absolute;
+	font-family: acier-bat-noir,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2vw;
+	color: white;
+	top: 72.5vh;
+	padding: 1.25vw 0vw 0vw 2.6vw;
+}
+
+#left-arrow img {
+	position: absolute;
+	top: 82vh;
+	left: 0vw;
+	height: 18vh;
+	width: 15.75vw;
+	padding: 0.3vh 0vh 0vw 0vw;
+}
+
+#right-arrow img {
+	position: absolute;
+	top: 82vh;
+	width: 15.8vw;
+	height: 18vh;
+	left: 15.9vw;
+	padding: 0.3vh 0vh 0vw 0.3vw;
+}
+
+.tweet {
+	position: absolute;
+	top: 12vh;
+	width: 100vw;
+	left: 45vw;
+}
