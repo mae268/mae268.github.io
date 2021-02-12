@@ -81,3 +81,11 @@ h3 {
   #web-ring a:hover {
     text-decoration: underline;
   }
+
+.fireflies {
+	position: absolute;
+	top: 90vh;
+	left: 8vw;
+	width: 40vw;
+	height: 40vw;
+}

@@ -1,3 +1,8 @@
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
 #top-page {
 	position: absolute;
 	background-color: deepskyblue;
