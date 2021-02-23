@@ -1,0 +1,117 @@
+html {
+	font-size: 62.5%;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	background-image: url(bg1-large.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#i-light {
+	position: absolute;
+	left: 22.5vw;
+	top: 2vh;
+}
+
+h1 {
+	font-family: ivypresto-display,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 12em;
+	position: relative;
+	left: 14vw;
+	top: 12vh;
+	color: white;
+}
+
+#author {
+	font-family: ivypresto-display, serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 4em;
+	color: #4A0718;
+	position: relative;
+	left: 57vw;
+}
+
+#intro-one {
+	font-family: ivypresto-headline, serif;
+	font-weight: 300;
+	font-style: normal;
+	position: relative;
+	color: black;
+	font-size: 4.5em;
+	left: 20vw;
+	width: 50vw;
+	top: 5vh;
+}
+
+#intro-two {
+	font-family: ivypresto-headline, serif;
+	font-weight: 100;
+	font-style: italic;
+	font-size: 3em;
+	color: black;
+	position: relative;
+	left: 30vw;
+	top: 7.5vh;
+}
+
+#page-two {
+	position: relative;
+	top: 40vh;
+}
+
+
+
+#begin {
+	font-family: ivypresto-text, serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+	body {
+		background-image: url(bg1-small.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	h1 {
+		font-size: 13em;
+		width: 65vw;
+		top: 5vh;
+	}
+
+	#i-light {
+		visibility: hidden;
+	}
+
+	#author {
+		position: relative;
+		top: -1vh;
+		left: 35vw;
+		font-size: 4.5em;
+	}
+
+	#intro-one {
+		position: relative;
+		font-size: 4em;
+		width: 80vw;
+		left: 10vw;
+		top: 10vh;
+	}
+
+	#intro-two {
+		position: relative;
+		left: 15vw;
+		top: 12vh;
+		font-size: 2.5em;
+	}
+
+}
