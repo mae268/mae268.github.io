@@ -83,9 +83,9 @@ h1 {
 	}
 
 	h1 {
-		font-size: 17vw;
-		width: 60vw;
-		top: 5vh;
+		font-size: 9em;
+		width: 65vw;
+		top: 3vh;
 	}
 
 	#i-light {
@@ -94,32 +94,32 @@ h1 {
 
 	#author {
 		position: relative;
-		top: -1vh;
+		top: -1.5vh;
 		left: 35vw;
 		font-size: 6vw;
 	}
 
 	#intro-one {
 		position: relative;
-		font-size: 4vw;
+		font-size: 3em;
 		width: 80vw;
 		left: 10vw;
-		top: 10vh;
+		top: 4vh;
 	}
 
 	#intro-two {
 		position: relative;
 		left: 15vw;
-		top: 12vh;
-		font-size: 2.5vw;
+		top: 5vh;
+		font-size: 1.75em;
 	}
 
 	#intro-three {
 		position: relative;
 		left: 10vw;
-		font-size: 3.5vw;
+		font-size: 2em;
 		width: 80vw;
-		top: -28vh;
+		top: -35vh;
 	}
 
 	#left {
@@ -130,7 +130,7 @@ h1 {
 		font-family: ivypresto-headline, serif;
 		font-weight: 300;
 		font-style: normal;
-		color: white;
+		animation: slide-one 1s 1;
 	}
 
 	@keyframes slide-one {
@@ -143,10 +143,6 @@ h1 {
 		}
 	}
 
-	#left:hover {
-		animation: slide-one 1s 1;
-	}
-
 	#right {
 		position: relative;
 		font-size: 4.5vw;
@@ -155,7 +151,7 @@ h1 {
 		font-family: ivypresto-headline, serif;
 		font-weight: 300;
 		font-style: normal;
-		color: white;
+		animation: slide-two 1s 1;
 	}
 
 	@keyframes slide-two {
@@ -168,10 +164,6 @@ h1 {
 			left: 49vw;
 			top: -28vh;
 		}
-	}
-
-	#right:hover {
-		animation: slide-two 1s 1;
 	}
 
 	#two {
