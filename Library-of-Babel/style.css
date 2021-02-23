@@ -76,16 +76,14 @@ h1 {
 }
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
-	body {
-		background-image: url(bg1-small.png);
-		background-size: cover;
-		background-repeat: no-repeat;
+	picture {
+		position: absolute;
 	}
 
 	h1 {
-		font-size: 13em;
-		width: 65vw;
-		top: 5vh;
+		font-size: 3vw;
+		width: 60vw;
+		top: 3vh;
 	}
 
 	#i-light {
