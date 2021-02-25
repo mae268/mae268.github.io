@@ -1,0 +1,36 @@
+img {
+	width: 100%;
+	border: solid 0.5vw #47ba90;
+}
+
+body {
+	background-color: #d4f8ae;
+}
+
+.grid {
+	position: relative;
+	top: 10vh;
+	display: grid;
+	grid-template-columns: 40vw 40vw;
+	grid-gap: 2vw;
+	padding-left: 8vw;
+	padding-bottom: 10vh;
+}
+
+@media (max-width: 500px) {
+	body {
+		background-color: #47ba90;
+	}
+
+	img {
+		width: 100%;
+		border: solid 1vw #d4f8ae;
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: 60vw;
+		grid-gap: 1.75vh;
+		padding-left: 18vw;
+	}
+}
