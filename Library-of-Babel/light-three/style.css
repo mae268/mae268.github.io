@@ -1,0 +1,73 @@
+html {
+	font-size: 62.5%;
+}
+
+img {
+	max-width: 100%;
+	position: absolute;
+}
+
+body {
+	background-image: url(light-bg3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: ivypresto-text, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2rem;
+	overflow-x: hidden;
+	color: white;
+	width: 100vw;
+	height: 115vh;
+}
+
+#lamp-one img {
+	top: 45vh;
+	left: 50vw;
+	width: 70vw;
+	opacity: 0;
+	animation: blink 2.75s ease infinite; 
+}
+
+@keyframes blink {
+	0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity:0;}
+}
+
+#lamp-two img {
+	top: 90vh;
+	left: -5vw;
+	width: 50vw;
+	opacity: 0;
+	animation: blink 2.5s 0.6s ease infinite;
+}
+
+#hallway {
+	position: relative;
+	top: 5vh;
+	left: 4vw;
+	width: 95vw;
+}
+
+#mirror {
+	position: relative;
+	top: 6vh;
+	left: 4vw;
+	width: 95vw;
+	transform: scale(1, -1);
+        -moz-transform: scale(1, -1);
+        -webkit-transform: scale(1, -1);
+        -o-transform: scale(1, -1);
+        -ms-transform: scale(1, -1);
+        transform: scale(1, -1);
+}
+
+#light-lamps {
+	position: relative;
+	top: 12vh;
+	width: 70vw;
+	left: 6vw;
+	font-size: 5.5rem;
+	padding: 8vh;
+}
