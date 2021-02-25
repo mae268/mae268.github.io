@@ -17,7 +17,6 @@ body {
 	overflow-x: hidden;
 	color: white;
 	width: 100vw;
-	height: 115vh;
 }
 
 #lamp-one img {
@@ -45,9 +44,9 @@ body {
 #hallway {
 	position: relative;
 	top: 5vh;
-	left: 4vw;
+	left: 3.5vw;
 	width: 95vw;
-	font-size: 3rem;
+	font-size: 4rem;
 }
 
 #mirror {
@@ -55,7 +54,7 @@ body {
 	top: 6vh;
 	left: 4vw;
 	width: 95vw;
-	font-size: 3rem;
+	font-size: 4rem;
 	transform: scale(1, -1);
         -moz-transform: scale(1, -1);
         -webkit-transform: scale(1, -1);
@@ -69,6 +68,6 @@ body {
 	top: 12vh;
 	width: 70vw;
 	left: 6vw;
-	font-size: 5.5rem;
+	font-size: 5rem;
 	padding: 8vh;
 }
