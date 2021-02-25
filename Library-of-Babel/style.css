@@ -23,7 +23,7 @@ h1 {
 	font-family: ivypresto-display,serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 12em;
+	font-size: 6rem;
 	position: relative;
 	left: 14vw;
 	top: 12vh;
@@ -34,7 +34,7 @@ h1 {
 	font-family: ivypresto-display, serif;
 	font-weight: 300;
 	font-style: normal;
-	font-size: 4em;
+	font-size: 4rem;
 	color: #4A0718;
 	position: relative;
 	left: 57vw;
@@ -46,7 +46,7 @@ h1 {
 	font-style: normal;
 	position: relative;
 	color: black;
-	font-size: 4.5em;
+	font-size: 4.5rem;
 	left: 20vw;
 	width: 50vw;
 	top: 5vh;
@@ -56,7 +56,7 @@ h1 {
 	font-family: ivypresto-headline, serif;
 	font-weight: 100;
 	font-style: italic;
-	font-size: 3em;
+	font-size: 3rem;
 	color: black;
 	position: relative;
 	left: 30vw;
@@ -68,12 +68,6 @@ h1 {
 	top: 40vh;
 }
 
-#begin {
-	font-family: ivypresto-text, serif;
-	font-weight: 300;
-	font-style: normal;
-}
-
 a:link {
 	color: white;
 }
@@ -82,16 +76,16 @@ a:visited {
 	color: yellow;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 767px) {
+@media (max-width: 767px) {
 	body {
 		background-image: url(bg1-small.png);
 		background-size: cover;
 		background-repeat: no-repeat;
-		
+		overflow-x: hidden;		
 	}
 
 	h1 {
-		font-size: 9em;
+		font-size: 7rem;
 		width: 65vw;
 		top: 3vh;
 	}
@@ -102,39 +96,40 @@ a:visited {
 
 	#author {
 		position: relative;
-		top: -1.5vh;
+		top: -1.7vh;
 		left: 35vw;
-		font-size: 6vw;
+		font-size: 2.5rem;
 	}
 
 	#intro-one {
 		position: relative;
-		font-size: 3em;
+		font-size: 2.3rem;
 		width: 80vw;
-		left: 10vw;
-		top: 4vh;
+		left: 8vw;
+		top: 3vh;
 	}
 
 	#intro-two {
 		position: relative;
 		left: 15vw;
-		top: 5vh;
-		font-size: 1.75em;
+		top: 4vh;
+		font-size: 1.4rem;
+		width: 90vw;
 	}
 
 	#intro-three {
 		position: relative;
 		left: 10vw;
-		font-size: 2em;
+		font-size: 2.25rem;
 		width: 80vw;
 		top: -35vh;
 	}
 
 	#left {
 		position: relative;
-		font-size: 2.3rem;
+		font-size: 2.25rem;
 		left: 15vw;
-		top: -30vh;
+		top: -34vh;
 		font-family: ivypresto-headline, serif;
 		font-weight: 300;
 		font-style: normal;
@@ -148,15 +143,16 @@ a:visited {
 		}
 
 		to {
-			left: 6vw;
+			left: 4vw;
 		}
 	}
 
 	#right {
 		position: relative;
-		font-size: 2.3rem;
-		left: 34.5vw;
-		top: -34.5vh;
+		font-size: 2.25rem;
+		left: 40vw;
+		width: 40vw;
+		top: -38.7vh;
 		font-family: ivypresto-headline, serif;
 		font-weight: 300;
 		font-style: normal;
@@ -166,12 +162,11 @@ a:visited {
 
 	@keyframes slide-two {
 		from {
-			left: 34.5vw;
+			left: 40vw;
 		}
 
 		to {
-			left: 44vw;
-			top: -30vh;
+			left: 54vw;
 		}
 	}
 
@@ -180,9 +175,9 @@ a:visited {
 		font-weight: 300;
 		font-style: normal;
 		position: relative;
-		font-size: 2.5em;
+		font-size: 2.5rem;
 		left: 25vw;
-		top: -28vh;
+		top: -35vh;
 
 	}
 
@@ -190,20 +185,20 @@ a:visited {
 		font-family: ivypresto-headline, serif;
 		font-weight: 300;
 		font-style: normal;
-		font-size: 1.5em;
+		font-size: 1.5rem;
 		position: relative;
-		left: 53.5vw;
-		top: -31.5vh;
+		left: 48vw;
+		top: -35vh;
 	}
 
 	#sleep {
 		font-family: ivypresto-headline, serif;
 		font-weight: 300;
 		font-style: normal;
-		font-size: 2.5em;
+		font-size: 2.75rem;
 		position: relative;
-		left: 55vw;
-		top: -28vh;
+		left: 52vw;
+		top: -33vh;
 		writing-mode: vertical-rl;
 	}
 
@@ -211,11 +206,11 @@ a:visited {
 		font-family: ivypresto-headline, serif;
 		font-weight: 300;
 		font-style: normal;
-		font-size: 2.5em;
+		font-size: 2rem;
 		position: relative;
-		width: 34%;
-		left: 33vw;
-		top: -26vh;
+		width: 50vw;
+		left: 20vw;
+		top: -32vh;
 		text-align: right;		
 	}
 
@@ -224,20 +219,20 @@ a:visited {
 		font-weight: 300;
 		font-style: normal;
 		position: relative;
-		font-size: 2.5em;
-		top: -20vh;
-		left: 42vw;
+		font-size: 2.5rem;
+		top: -30vh;
+		left: 35vw;
 	}
 
 	#here {
 		font-family: ivypresto-headline, serif;
 		font-weight: 300;
 		font-style: normal;
-		font-size: 1em;
+		font-size: 2.5rem;
 		position: absolute;
 		color: white;
 		top: -0.1vh;
-		left: 26vw;
+		left: 35vw;
 	}
 
 }
