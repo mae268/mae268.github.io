@@ -1,0 +1,105 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-image: url(s-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: ivypresto-text, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2.2rem;
+	overflow: hidden;
+}
+
+@media (max-width: 667px){
+	#stair {
+		position: relative;
+		top: 3vh;
+		left: 3vw;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	#dark img {
+		position: absolute;
+		top: -10px;
+		left: -15px;
+		z-index: 0;
+	}
+
+	#sink {
+		position: relative;
+		top: -20vh;
+		left: -18vw;
+		animation: down 2.5s 1s;
+		animation-fill-mode: forwards;
+	}
+
+	#sink-text {
+		position: absolute;
+		top: 200px;
+		left: 120px;
+		z-index: 1;
+	}
+
+	@keyframes down {
+		from {top: -20vh;}
+		to {top: 61vh;}
+	}
+
+	#light img {
+		position: absolute;
+		z-index:0;
+		width: 200%;
+		left: -90px;
+		top: -80px;
+		
+	}
+
+	#soar-text {
+		position: absolute;
+		z-index: 1;
+	}
+
+	#soar {
+		position: relative;
+		top: 85vh;
+		left: 52vw;
+		width: 42vw;
+		opacity: 0;
+		animation: up 2.5s 5s, appear 1s 3.6s;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes up {
+		from {top: 85vh;}
+		to {top: -3vh;}
+	}
+
+	@keyframes appear {
+		0% {opacity:0;}
+		100% {opacity: 1;}
+	}
+
+	#hallway {
+		position: relative;
+		font-size: 3rem;
+		color: white;
+		top: 88vh;
+		left: 55vw;
+		animation: show 1s 8s;
+		animation-fill-mode: forwards;
+		opacity: 0;
+	}
+
+	@keyframes show {
+		0% {opacity: 0;}
+		100% {opacity: 1;}
+	}
+
+}
+

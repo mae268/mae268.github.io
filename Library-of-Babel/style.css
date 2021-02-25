@@ -10,6 +10,7 @@ body {
 	background-image: url(bg1-large.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+	overflow-x: hidden;
 }
 
 #i-light {
@@ -73,11 +74,20 @@ h1 {
 	font-style: normal;
 }
 
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: yellow;
+}
+
 @media only screen and (min-width: 375px) and (max-width: 767px) {
 	body {
 		background-image: url(bg1-small.png);
 		background-size: cover;
 		background-repeat: no-repeat;
+		
 	}
 
 	h1 {
@@ -122,45 +132,46 @@ h1 {
 
 	#left {
 		position: relative;
-		font-size: 2.5em;
-		left: 13.5vw;
-		top: -28vh;
+		font-size: 2.3rem;
+		left: 15vw;
+		top: -30vh;
 		font-family: ivypresto-headline, serif;
 		font-weight: 300;
 		font-style: normal;
-		animation: slide-one 1s 1;
+		animation: slide-one 1s 5s;
+		animation-fill-mode: forwards;
 	}
 
 	@keyframes slide-one {
-		0% {
-			left: 13.5vw;
+		from {
+			left: 15vw;
 		}
 
-		100% {
-			left: 0.5vw;
+		to {
+			left: 6vw;
 		}
 	}
 
 	#right {
 		position: relative;
-		font-size: 2.5em;
-		left: 33.5vw;
+		font-size: 2.3rem;
+		left: 34.5vw;
 		top: -34.5vh;
 		font-family: ivypresto-headline, serif;
 		font-weight: 300;
 		font-style: normal;
-		animation: slide-two 1s 1;
+		animation: slide-two 1s 5.5s;
+		animation-fill-mode: forwards;
 	}
 
 	@keyframes slide-two {
-		0% {
-			left: 33.5vw;
-			top: -34.5vh;
+		from {
+			left: 34.5vw;
 		}
 
-		100% {
-			left: 49vw;
-			top: -28vh;
+		to {
+			left: 44vw;
+			top: -30vh;
 		}
 	}
 
@@ -181,7 +192,7 @@ h1 {
 		font-style: normal;
 		font-size: 1.5em;
 		position: relative;
-		left: 52vw;
+		left: 53.5vw;
 		top: -31.5vh;
 	}
 
@@ -202,8 +213,8 @@ h1 {
 		font-style: normal;
 		font-size: 2.5em;
 		position: relative;
-		width: 30vw;
-		left: 35vw;
+		width: 34%;
+		left: 33vw;
 		top: -26vh;
 		text-align: right;		
 	}
@@ -222,12 +233,13 @@ h1 {
 		font-family: ivypresto-headline, serif;
 		font-weight: 300;
 		font-style: normal;
-		font-size: 2.5em;
-		position: relative;
+		font-size: 1em;
+		position: absolute;
 		color: white;
-		top: -24.75vh;
-		left: 67vw;
+		top: -0.1vh;
+		left: 26vw;
 	}
+
 }
 
 }
