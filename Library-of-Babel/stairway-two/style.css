@@ -291,7 +291,7 @@ img {
 
 		@keyframes down {
 			from {top: -20vh;}
-			to {top: 61vh;}
+			to {top: 55vh;}
 		}
 
 		#light img {
@@ -310,7 +310,7 @@ img {
 
 		#soar {
 			position: relative;
-			top: 85vh;
+			top: 78vh;
 			left: 54vw;
 			width: 42vw;
 			opacity: 0;
@@ -332,7 +332,7 @@ img {
 			position: relative;
 			font-size: 1.75rem;
 			color: white;
-			top: 88vh;
+			top: 80vh;
 			margin-left: 60vw;
 			animation: show 1s 8s;
 			animation-fill-mode: forwards;
