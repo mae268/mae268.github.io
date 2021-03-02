@@ -1,0 +1,222 @@
+html {
+	font-size: 62.5%;
+}
+
+img {
+	max-width: 100%;
+}
+
+@media (min-width: 768px) {
+	body {
+		background-image: url(bg-eight-large.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		font-size: 2.5rem;
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+	}
+
+	#shelf {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 4rem;
+		top: 2vh;
+		position: relative;
+		padding: 1vw;
+		margin-left: 1vw;
+	}
+
+	#god {
+		display: inline;
+		color: #612F2F;
+	}
+
+	#him {
+		position: relative;
+		top: 2vh;
+		width: 80vw;
+		padding: 3vw;
+		margin-left: 2vw;
+	}
+
+	#locate {
+		position: relative;
+		top: 2vh;
+		width: 60vw;
+		margin-left: 15vw;
+	}
+
+	#adventures {
+		position: relative;
+		top: 3vh;
+		width: 85vw;
+		padding: 3vw;
+
+	}
+
+	#hell {
+		margin-left: 20vw;
+		width: 50vw;
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2.75rem;
+		color: #612F2F;
+	}
+
+	#library {
+		position: relative;
+		top: 2.5vh;
+		width: 90vw;
+		padding-left: 3vw;
+	}
+
+	#letters {
+		margin-left: 30vw;
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2.5rem;
+	}
+
+	#divine {
+		position: relative;
+		top: 5vh;
+		width: 90vw;
+		padding-left: 3vw;
+	}
+
+	#end {
+		position: relative;
+		top: 8vh;
+		width: 80vw;
+		padding-left: 10vw;
+
+	}
+
+	#last {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 4.5rem;
+		color: #612F2F;
+	}
+
+	#end-note {
+		font-size: 1.25rem;
+		position: relative;
+		top: 10vh;
+		width: 88vw;
+		padding: 5vw;
+		padding-bottom: 15vh;
+
+	}
+}
+
+@media (max-width: 767px) {
+	body {
+		background-image: url(bg8-small.png);
+		background-size: cover;
+		font-size: 1.75rem;
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+	}
+
+	#shelf {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2.5rem;
+		top: 2vh;
+		position: relative;
+		padding: 1vw;
+	}
+
+	#god {
+		display: inline;
+		color: #612F2F;
+	}
+
+	#him {
+		position: relative;
+		top: 2vh;
+		width: 80vw;
+		padding: 3vw;
+		margin-left: 2vw;
+	}
+
+	#locate {
+		position: relative;
+		top: 2vh;
+		width: 60vw;
+		margin-left: 15vw;
+	}
+
+	#adventures {
+		position: relative;
+		top: 3vh;
+		width: 85vw;
+		padding: 3vw;
+
+	}
+
+	#hell {
+		margin-left: 20vw;
+		width: 50vw;
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2.75rem;
+		color: #612F2F;
+	}
+
+	#library {
+		position: relative;
+		top: 2.5vh;
+		width: 90vw;
+		padding-left: 3vw;
+	}
+
+	#letters {
+		margin-left: 30vw;
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2.5rem;
+	}
+
+	#divine {
+		position: relative;
+		top: 5vh;
+		width: 90vw;
+		padding-left: 3vw;
+	}
+
+	#end {
+		position: relative;
+		top: 8vh;
+		width: 80vw;
+		padding-left: 10vw;
+
+	}
+
+	#last {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 3rem;
+		color: #612F2F;
+	}
+
+	#end-note {
+		font-size: 1.25rem;
+		position: relative;
+		top: 10vh;
+		width: 88vw;
+		padding: 5vw;
+
+	}
+}

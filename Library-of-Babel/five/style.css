@@ -1,0 +1,243 @@
+html {
+	font-size: 62.5%;
+}
+
+img {
+	max-width: 100%;
+}
+
+@media (min-width: 768px) {
+	body {
+		position: relative;
+		background-image: url(bg7-large.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: white;
+		font-size: 2.5rem;
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+	}
+
+	#happy {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 6rem;
+		top: 3vh;
+		margin-left: 3vw;
+	}
+
+	#eh {
+		display: inline;
+		color: #FBFF3F;
+	}
+
+	#treasure {
+		position: relative;
+		top: 3vh;
+		width: 90vw;
+		margin-left: 5vw;
+
+	}
+
+	#vin {
+		position: relative;
+		top: 5vh;
+		width: 78vw;
+		margin-left: 12vw;
+
+	}
+
+	#vin-big{
+		display: inline;
+		font-size: 5.5rem;
+		color: red;
+	}
+
+	#greedy {
+		display: inline;
+		color: red;
+	}
+
+	#mad {
+		display: inline;
+		color: red;
+	}
+
+	#origin {
+		position: relative;
+		top: 5vh;
+		width: 88vw;
+		margin-left: 4vw;
+	}
+
+	#time {
+		color: #BCFFFF;
+		display: inline;
+	}
+
+	#search {
+		color: #BCFFFF;
+		display: inline;
+	}
+
+	#kill {
+		color: red;
+		display: inline;
+	}
+
+	#hope {
+		position: relative;
+		top: 8vh;
+		width: 90vw;
+		margin-left: 7vw;
+
+	}
+
+	#eliminate {
+		position: relative;
+		top: 10vh;
+		width: 90vw;
+		margin-left: 3vw;
+
+	}
+
+	#super {
+		position: relative;
+		top: 12vh;
+		width: 80vw;
+		margin-left: 10vw;
+		font-size: 4rem;
+		margin-bottom: 12vh;
+		padding-bottom: 5vh;
+	}
+
+	a:link {
+	color: limegreen;
+	}
+
+	a:visited {
+	color: green;
+	}
+
+}
+
+@media (max-width: 767px) {
+	body {
+		background-image: url(bg7-small.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: white;
+		font-size: 1.75rem;
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+	}
+
+	#happy {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2.5rem;
+		top: 2vh;
+		position: relative;
+	}
+
+	#eh {
+		display: inline;
+		color: #FBFF3F;
+	}
+
+	#treasure {
+		position: relative;
+		top: 3vh;
+		width: 90vw;
+		margin-left: 5vw;
+
+	}
+
+	#vin {
+		position: relative;
+		top: 5vh;
+		width: 78vw;
+		margin-left: 12vw;
+
+	}
+
+	#vin-big{
+		display: inline;
+		font-size: 3rem;
+		color: red;
+	}
+
+	#greedy {
+		display: inline;
+		color: red;
+	}
+
+	#mad {
+		display: inline;
+		color: red;
+	}
+
+	#origin {
+		position: relative;
+		top: 5vh;
+		width: 88vw;
+		margin-left: 4vw;
+	}
+
+	#time {
+		color: #BCFFFF;
+		display: inline;
+	}
+
+	#search {
+		color: #BCFFFF;
+		display: inline;
+	}
+
+	#kill {
+		color: red;
+		display: inline;
+	}
+
+	#hope {
+		position: relative;
+		top: 7vh;
+		width: 90vw;
+		margin-left: 7vw;
+
+	}
+
+	#eliminate {
+		position: relative;
+		top: 8vh;
+		width: 90vw;
+		margin-left: 3vw;
+
+	}
+
+	#super {
+		position: relative;
+		top: 10vh;
+		width: 80vw;
+		margin-left: 10vw;
+		font-size: 2rem;
+		margin-bottom: 12vh;
+		padding-bottom: 5vh;
+	}
+
+	a:link {
+	color: limegreen;
+	}
+
+	a:visited {
+	color: green;
+	}
+
+
+
+}
+

@@ -87,7 +87,7 @@ html {
 		background-size: cover;
 		background-repeat: no-repeat;
 		width: 101vw;
-		height: 200vh;
+		height: 230vh;
 		margin-top: 100vh;
 		z-index: 10;
 		position: relative;
@@ -288,6 +288,27 @@ html {
 		margin-left: 40vw;
 	}
 
+	#contain {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2.5rem;
+		position: relative;
+		z-index: 10;
+		position: relative;
+		top: 18vh;
+		width: 80vw;
+		margin-left: 10vw;
+	}
+
+	a:link {
+	color: #EFD9D2;
+	}
+
+	a:visited {
+	color: #F0C2C2;
+	}
+
 }
 
 @media (max-width: 767px) {
@@ -371,7 +392,7 @@ html {
 		background-size: cover;
 		background-repeat: no-repeat;
 		width: 102vw;
-		height: 305vh;
+		height: 310vh;
 		top: -1vh;
 		position: relative;
 		left: -2vw;
@@ -572,4 +593,28 @@ html {
 		width: 90vw;
 		top: 5.5vh;
 		margin-left: 5vw;
+		z-index: 10;
 	}
+
+	#contain {
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.5rem;
+		position: relative;
+		z-index: 10;
+		position: relative;
+		top: 7vh;
+		width: 80vw;
+		margin-left: 10vw;
+		padding-bottom: 3vh;
+	}
+
+	a:link {
+	color: #EFD9D2;
+	}
+
+	a:visited {
+	color: #F0C2C2;
+	}
+}
