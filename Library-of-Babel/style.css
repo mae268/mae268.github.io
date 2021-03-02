@@ -129,34 +129,12 @@ a:visited {
 		width: 100vw;
 	}
 
-	#background-mobile img {
-		position: absolute;
-	}
-
-	h1 {
-		font-size: 7rem;
-		width: 65vw;
-		top: 3vh;
-	}
-
-	#i-light {
-		visibility: hidden;
-	}
-
-	#author {
-		position: relative;
-		top: -1.7vh;
-		left: 35vw;
-		font-size: 2.5rem;
-	}
-
 	.page-two {
 		width: 100vw;
 	}
 
 	#intro-three {
 		margin: -40vh 0 0 10vw;
-		left: 10vw;
 		font-size: 2.25rem;
 		width: 80vw;
 		align-content: center;
