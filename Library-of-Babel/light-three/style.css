@@ -7,16 +7,24 @@ img {
 	position: absolute;
 }
 
+.page-three {
+	position: relative;
+	width: 100vw;
+}
+
+#bg-light img {
+	position: absolute;
+	width: 102vw;
+	top: -2vh;
+	left: -2vw;
+	height: 140vh;
+}
+
 body {
-	background-image: url(light-bg3.png);
-	background-size: cover;
-	background-repeat: no-repeat;
 	font-family: ivypresto-text, serif;
 	font-weight: 400;
 	font-style: normal;
-	overflow-x: hidden;
 	color: white;
-	width: 100vw;
 }
 
 #lamp-one img {
@@ -70,4 +78,181 @@ body {
 	left: 6vw;
 	font-size: 5rem;
 	padding: 8vh;
+}
+
+.page-four {
+	position: relative;
+	top: 12vh;
+	left: -2vw;
+	width: 100vw;
+	color: black;
+}
+
+#four-bg img {
+	position: absolute;
+	width: 102vw;
+}
+
+#part-one {
+	position: relative;
+	top: 5vh;
+	width: 78vw;
+	left: 8vw;
+	font-size: 3.5rem;
+}
+
+#dead {
+	position: relative;
+	top: 10vh;
+	left: 52vw;
+	font-size: 3.75rem;
+	
+}
+
+#after-death {
+	position: relative;
+	top: 10vh;
+	left: 5vw;
+	font-size: 1.75rem;
+	width: 92vw;
+}
+
+#unending {
+	position: relative;
+	top: 12vh;
+	left: 5vw;
+	font-size: 7.5rem;
+	width: 80vw;
+}
+
+.unending-repeat {
+	position: absolute;
+	color: #BE7D68;
+	top: 72vh;
+	left: 40vw; 
+	font-size: 7.5rem;
+}
+
+#u-three {
+	opacity: 0.97;
+}
+
+#u-four {
+	opacity: 0.94;
+}
+
+#u-five {
+	opacity: 0.91;
+}
+
+#u-six {
+	opacity: 0.88;
+}
+
+#u-seven {
+	opacity: 0.85;
+}
+
+#u-eight {
+	opacity: 0.82;
+}
+
+#u-nine {
+	opacity: 0.79;
+}
+
+#u-ten {
+	opacity: 0.76;
+}
+
+#u-eleven {
+	opacity: 0.73;
+}
+
+#u-twelve {
+	opacity: 0.70;
+}
+
+#u-thirteen {
+	opacity: 0.67;
+}
+
+#u-fourteen {
+	opacity: 0.64;
+}
+
+#u-fifteen {
+	opacity: 0.61;
+}
+
+#u-sixteen {
+	opacity: 0.58;
+}
+
+#u-seventeen {
+	opacity: 0.55;
+}
+
+#u-eighteen {
+	opacity: 0.52;
+}
+
+#u-nineteen {
+	opacity: 0.49;
+}
+
+#u-twenty {
+	opacity: 0.47;
+}
+
+#u-twentyone {
+	opacity: 0.44;
+}
+
+#u-twentytwo {
+	opacity: 0.41;
+}
+
+#u-twentythree {
+	opacity: 0.38;
+}
+
+#u-twentyfour {
+	opacity: 0.35;
+}
+
+#u-twentyfive {
+	opacity: 0.31;
+}
+
+#u-twentysix {
+	opacity: 0.28;
+}
+
+#u-twentyseven {
+	opacity: 0.25;
+}
+
+#idealist {
+	position: relative;
+	top: 40vh;
+	left: 6vw;
+	font-size: 2rem;
+	width: 85vw;
+}
+
+#repeat {
+	position: relative;
+	top: 45vh;
+	left: 6vw;
+	font-size: 2rem;
+	width: 80vw;
+}
+
+#sphere {
+	position: relative;
+	top: 46vh;
+	left: 15vw;
+	font-size: 7.5rem;
+	width: 78vw;
 }
