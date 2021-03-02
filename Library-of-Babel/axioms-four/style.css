@@ -1,0 +1,575 @@
+img {
+	width: 100vw;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+@media (min-width: 768px) {
+	#first-page {
+		background-image: url(bg5-large.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100.5vw;
+		height: 125vh;
+		top: 0vh;
+		left: 0vw;
+		position: fixed;
+	}
+
+	#first-headline {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 3.75rem;
+		position: relative;
+		top: 8vh;
+		margin-left: 8vw;
+	}
+
+	#first-content {
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.75rem;
+		position: relative;
+		top: 8vh;
+		margin-left: 15vw;
+		width: 58vw;
+	}
+
+	#second-headline {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 3.75rem;
+		position: relative;
+		top: 15vh;
+		margin-left: 8vw;
+	}
+
+	.symbol {
+		color: #CD4021;
+		display: inline;
+	}
+
+	.symbol:hover + .note {
+		display: block;
+	}
+
+	.note {
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.25rem;
+		position: absolute;
+		top: -16vh;
+		margin-left: 70vw;
+		width: 18vw;
+		display: none;
+		color:#CD4021;
+	}
+
+	#second-content {
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.75rem;
+		position: relative;
+		top: 15vh;
+		margin-left: 15vw;
+		width: 80vw;
+	}
+
+	#page-two {
+		background-image: url(bg6-large.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 101vw;
+		height: 200vh;
+		margin-top: 100vh;
+		z-index: 10;
+		position: relative;
+		margin-left: -1vw;
+	}
+
+	#long-time {
+		position: relative;
+		top: 5vh;
+		margin-left: 5vw;
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2.5rem;
+
+	}
+
+	#ancient {
+		position: relative;
+		top: 5vh;
+		margin-left: 7vw;
+		font-size: 1.75rem;
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		width: 30vw;
+
+	}
+
+	#miles-right {
+		position: relative;
+		top: 2vh;
+		margin-left: 24vw;
+		width: 32vw;
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.75rem;
+	}
+
+	.right {
+		display: inline;
+		background-color: #EFD9D2;
+		padding: 1vw;
+		border-radius: 3vw;
+	}
+
+	.tongue {
+		position: relative;
+		top: 0vh;
+		margin-left: 0vw;
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.75rem;
+		width: 30vw;
+		opacity: 0;
+	}
+
+	@keyframes right {
+		0% {margin-left: 0vw;}
+		100% {margin-left: 52vw;}
+	}
+
+	@keyframes show {
+		0% {opacity: 0;}
+		100% {opacity: 1;}
+	}
+
+	.right:hover ~ .tongue {
+		animation: right 2s, show 0.1s;
+		animation-fill-mode: forwards;
+	}
+
+	#floors-up {
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.75rem;
+		position: relative;
+		margin-left: 78vw;
+		top: 2vh;
+		width: 40vw;
+	}
+
+	.up {
+		display: inline;
+		background-color: #EFD9D2;
+		padding: 1vw;
+		border-radius: 3vw;
+	}
+
+	.move-up {
+		position: relative;
+		bottom: 0vh;
+		margin-left: 0vw;
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.75rem;
+		opacity: 0;
+		
+	}
+
+	@keyframes up {
+		0% {bottom: 0vh;}
+		100% {bottom: 90vh;}
+	}
+
+	.up:hover + .move-up {
+		animation: up 5s, show 0.1s;
+		animation-fill-mode: forwards;
+	}
+
+	#repeat-true {
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.75rem;
+		position: relative;
+		width: 75vw;
+		margin-left: 3vw;
+		top: 2vh;
+	}
+
+	#true {
+		display: inline;
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2.35rem;
+	}
+
+	#law {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2.35rem;
+		width: 85vw;
+		margin-left: 7vw;
+		position: relative;
+		top: 5vh;
+	}
+
+	#no-identical {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 4rem;
+		position: relative;
+		top: 5vh;
+		margin-left: 25vw;
+	}
+
+	#premise {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2.35rem;
+		position: relative;
+		margin-left: 25vw;
+		top: 4vh;
+		width: 70vw;
+		z-index: 10;
+	}
+
+	#everything {
+		position: absolute;
+		top: 82vh;
+		margin-left: 5vw;
+		font-size: 25rem;
+		color: #CDA8A0;
+		z-index: 0;
+		font-family: ivypresto-headline, serif;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	#everything-content {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2.35rem;
+		position: relative;
+		z-index: 10;
+		top: 15vh;
+		margin-left: 35vw;
+	}
+
+	#book {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 7rem;
+		position: relative;
+		width: 50vw;
+		top: 15vh;
+		margin-left: 40vw;
+	}
+
+}
+
+@media (max-width: 767px) {
+	#first-page {
+		background-image: url(bg5-large.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 102vw;
+		height: 180vh;
+		top: -1vh;
+		left: -2vw;
+		position: relative;
+	}
+
+	#first-headline {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2.25rem;
+		position: relative;
+		top: 8vh;
+		margin-left: 8vw;
+	}
+
+	#first-content {
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.5rem;
+		position: relative;
+		top: 8vh;
+		margin-left: 15vw;
+		width: 70vw;
+	}
+
+	#second-headline {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2.25rem;
+		position: relative;
+		top: 20vh;
+		margin-left: 8vw;
+	}
+
+	.symbol {
+		color: #CD4021;
+		display: inline;
+	}
+
+	.symbol:hover + .note {
+		display: block;
+	}
+
+	.note {
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 0.4rem;
+		position: absolute;
+		top: -13vh;
+		margin-left: 50vw;
+		width: 42vw;
+		display: none;
+		color:#CD4021;
+	}
+
+	#second-content {
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.5rem;
+		position: relative;
+		top: 20vh;
+		margin-left: 15vw;
+		width: 80vw;
+	}
+
+	#page-two {
+		background-image: url(bg6-large.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 102vw;
+		height: 305vh;
+		top: -1vh;
+		position: relative;
+		left: -2vw;
+	}
+
+	#long-time {
+		position: relative;
+		top: 5vh;
+		margin-left: 5vw;
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2rem;
+		width: 90vw;
+
+	}
+
+	#ancient {
+		position: relative;
+		top: 5vh;
+		margin-left: 7vw;
+		font-size: 1.5rem;
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		width: 80vw;
+
+	}
+
+	#miles-right {
+		position: relative;
+		top: 5vh;
+		margin-left: 10vw;
+		width: 32vw;
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.5rem;
+	}
+
+	.right {
+		display: inline;
+		background-color: #EFD9D2;
+		padding: 1vw;
+		border-radius: 3vw;
+	}
+
+	.tongue {
+		position: relative;
+		top: 0vh;
+		margin-left: 0vw;
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.5rem;
+		width: 30vw;
+		opacity: 0;
+	}
+
+	@keyframes right {
+		0% {margin-left: 0vw;}
+		100% {margin-left: 52vw;}
+	}
+
+	@keyframes show {
+		0% {opacity: 0;}
+		100% {opacity: 1;}
+	}
+
+	.right:hover ~ .tongue {
+		animation: right 2s, show 0.1s;
+		animation-fill-mode: forwards;
+	}
+
+	#floors-up {
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.5rem;
+		position: relative;
+		margin-left: 52vw;
+		top: 5vh;
+		width: 40vw;
+	}
+
+	.up {
+		display: inline;
+		background-color: #EFD9D2;
+		padding: 1vw;
+		border-radius: 3vw;
+	}
+
+	.move-up {
+		position: relative;
+		bottom: 0vh;
+		margin-left: 0vw;
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.5rem;
+		opacity: 0;
+		
+	}
+
+	@keyframes up {
+		0% {bottom: 0vh;}
+		100% {bottom: 52vh;}
+	}
+
+	.up:hover + .move-up {
+		animation: up 5s, show 0.1s;
+		animation-fill-mode: forwards;
+	}
+
+	#repeat-true {
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.5rem;
+		position: relative;
+		width: 88vw;
+		margin-left: 3vw;
+		top: 2vh;
+	}
+
+	#true {
+		display: inline;
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2rem;
+	}
+
+	#law {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2rem;
+		width: 85vw;
+		margin-left: 7vw;
+		position: relative;
+		top: 5vh;
+	}
+
+	#no-identical {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 3rem;
+		position: relative;
+		top: 5vh;
+		margin-left: 32vw;
+		width: 70vw;
+	}
+
+	#premise {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 2rem;
+		position: relative;
+		margin-left: 15vw;
+		top: 5vh;
+		width: 80vw;
+		z-index: 10;
+	}
+
+	#everything {
+		position: absolute;
+		top: 225vh;
+		margin-left: 2vw;
+		font-size: 8rem;
+		color: #CDA8A0;
+		z-index: 0;
+		font-family: ivypresto-headline, serif;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+	#everything-content {
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 1.5rem;
+		position: relative;
+		z-index: 10;
+		top: 6vh;
+		margin-left: 17vw;
+		width: 78vw;
+	}
+
+	#book {
+		font-family: ivypresto-headline, serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 3.5rem;
+		position: relative;
+		width: 90vw;
+		top: 5.5vh;
+		margin-left: 5vw;
+	}

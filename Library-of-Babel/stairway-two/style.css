@@ -1,0 +1,348 @@
+html {
+	font-size: 62.5%;
+}
+
+img {
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	body {
+		height: 200vh;
+	}
+
+	.desktop-pageone {
+		background-image: url(bg3-large.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		height: 130vh;
+		width: 101vw;
+		position: relative;
+		top: -10vh;
+		left: -1vw;
+	}
+
+	#left {
+		font-size: 3.2rem;
+		padding-top: 8vh;
+		margin-top: 10vh;
+		margin-left: 32.5vw;
+		animation: go-left 2.5s 1s, white 2.5s 1s;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes go-left {
+		0% {margin-left:32.5vw;}
+		100% {margin-left: 3vw;}
+
+	}
+
+	@keyframes white {
+		0% {color: black;}
+		100% {color: white;}
+	}
+
+	#right {
+		font-size: 3.2rem;
+		padding-top: 2.6vh;
+		margin-top: -8.9vh;
+		margin-left: 48vw;
+		width: 20vw;
+		animation: go-right 2.5s 1s, white 2.5s 1s;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes go-right {
+		0% {margin-left: 48vw;}
+		100% {margin-left: 79.5vw;}
+
+	}
+	#two {
+		text-align: center;
+		font-size: 2.8rem;
+		margin-top: 2vh;
+		margin-left: -15vw;
+		padding-left: -10vw;
+	}
+
+	#closets {
+		font-size: 2.8rem;
+		margin-top: -5.5vh;
+		margin-left: 25.5vw;
+		text-align: center;
+		animation: shrink 1.5s 4s;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes shrink {
+		0% {font-size: 2.8rem;}
+		100% {
+			font-size: 1.5rem;
+			margin-left: 15vw;
+			margin-top: -4vh;
+		}
+	}
+
+	#sleep {
+		writing-mode: vertical-rl;
+		font-size: 2.8rem;
+		text-align: center;
+		margin-left: 54vw;
+		margin-top: 2vh;
+	}
+
+	#fecal {
+		text-align: right;
+		font-size: 2.8rem;
+		margin-left: 40vw;
+		margin-top: 2vh;
+		width: 30vw;
+
+	}
+
+	#through {
+		font-size: 2.8rem;
+		width: 30vw;
+		margin-top: 1vh;
+		margin-left: 35vw;
+	}
+
+	.mobile-page {
+		position: relative;
+		background-image: url(bg4-large.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		top: -14vh;
+		left: -1vw;
+		width: 101vw;
+		font-size: 2.8rem;
+		height: 100vh;
+		font-family: ivypresto-text, serif;
+		font-weight: 300;
+		font-style: normal;
+		overflow-y: hidden;
+	}
+
+	a:link {
+			color: white;
+		}
+
+	a:visited {
+			color: yellow;
+	}
+
+	#stair {
+		position: relative;
+		padding-top: 3.5vh;
+		margin-left: 3vw;
+	}											
+
+	#dark img {
+		position: absolute;
+		top: -18vh;
+		margin-left: 10vw;
+		z-index: 0;
+		width: 60vw;
+	}
+
+	#sink {		
+		position: relative;
+		top: -18vh;	
+		margin-left: -9vw;
+		animation: down 1.5s 1s;	
+		animation-fill-mode: forwards;
+		animation-play-state: paused;
+		animation-delay: calc(var(--scroll) * -1s);	
+	}		
+
+	#sink-text {
+		position: absolute;
+		margin-top: 200px;
+		margin-left: 350px;
+		z-index: 1;
+	}
+
+	@keyframes down {
+		from {top: -20vh;}
+		to {top: 61vh;}
+	}
+
+	#light img {
+		position: absolute;
+		z-index:0;
+		width: 200%;
+		margin-left: -25vw;
+		top: -35vh;
+	}
+
+	#soar-text {
+		position: absolute;
+		z-index: 1;
+	}
+
+	#soar {
+		position: relative;
+		top: 80vh;
+		margin-left: 43vw;
+		width: 42vw;
+		opacity: 0;
+		animation: up 1.5s, appear 1s;
+		animation-fill-mode: forwards;
+		animation-play-state: paused;
+		animation-delay: calc(var(--scroll) * -1s);
+	}
+
+	@keyframes up {
+		from {top: 85vh;}
+		to {top: -5vh;}
+	}
+
+	@keyframes appear {
+		0% {opacity:0;}
+		100% {opacity: 1;}
+	}
+
+	#hallway {
+		position: relative;
+		color: white;
+		top: 80vh;
+		margin-left: 82vw;
+		animation: show 1s 8s;
+		animation-fill-mode: forwards;
+		animation-play-state: paused;
+		animation-delay: calc(var(--scroll) * -1s);
+		opacity: 0;
+	}
+
+	@keyframes show {
+		0% {opacity: 0;}
+		100% {opacity: 1;}
+	}
+}
+
+@media (max-width: 767px) {
+	body {
+		height: 100vh;
+	}
+
+	.desktop-pageone {
+		visibility: hidden;
+		height: 0vh;
+		top: -100vh;
+	}
+
+	.mobile-page {
+		background-image: url(s-bg.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		font-family: ivypresto-text, serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 1.6rem;
+		overflow: hidden;
+		margin-top: -1vh;
+		width: 100vw;
+		margin-left: -2vw;
+		height: 101vh;
+	}
+
+	a:link {
+		color: white;
+	}
+
+	a:visited {
+		color: yellow;
+	}
+
+		#stair {
+			position: relative;
+			margin-top: 3vh;
+			margin-left: 3vw;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		#dark img {
+			position: absolute;
+			margin-top: 30px;
+			margin-left: -13px;
+			z-index: 0;
+		}
+
+		#sink {
+			position: relative;
+			top: -20vh;
+			left: -22vw;
+			animation: down 2.5s 1s;
+			animation-fill-mode: forwards;
+		}
+
+		#sink-text {
+			position: absolute;
+			top: 200px;
+			left: 120px;
+			z-index: 1;
+		}
+
+		@keyframes down {
+			from {top: -20vh;}
+			to {top: 61vh;}
+		}
+
+		#light img {
+			position: absolute;
+			z-index:0;
+			width: 200%;
+			left: -90px;
+			top: -80px;
+			
+		}
+
+		#soar-text {
+			position: absolute;
+			z-index: 1;
+		}
+
+		#soar {
+			position: relative;
+			top: 85vh;
+			left: 54vw;
+			width: 42vw;
+			opacity: 0;
+			animation: up 2.5s 5.5s, appear 1s 3.6s;
+			animation-fill-mode: forwards;
+		}
+
+		@keyframes up {
+			from {top: 85vh;}
+			to {top: -3vh;}
+		}
+
+		@keyframes appear {
+			0% {opacity:0;}
+			100% {opacity: 1;}
+		}
+
+		#hallway {
+			position: relative;
+			font-size: 1.75rem;
+			color: white;
+			top: 88vh;
+			margin-left: 60vw;
+			animation: show 1s 8s;
+			animation-fill-mode: forwards;
+			opacity: 0;
+		}
+
+		@keyframes show {
+			0% {opacity: 0;}
+			100% {opacity: 1;}
+		}
+
+	}
+}

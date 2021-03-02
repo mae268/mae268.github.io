@@ -7,252 +7,698 @@ img {
 	position: absolute;
 }
 
-.page-three {
-	position: relative;
-	width: 100vw;
+@media (min-width: 768px) {
+	.page-three {
+		position: relative;
+		width: 100vw;
+	}
+
+	#bg-light img {
+		position: absolute;
+		width: 100vw;
+		top: -2vh;
+		margin-left: -2vw;
+		height: 150vh;
+	}
+
+	body {
+		font-family: ivypresto-text, serif;
+		font-weight: 400;
+		font-style: normal;
+		color: white;
+		overflow-x: hidden;
+	}
+
+	#lamp-one img {
+		top: 45vh;
+		margin-left: 50vw;
+		width: 70vw;
+		opacity: 0;
+		animation: blink 2.75s ease infinite; 
+	}
+
+	@keyframes blink {
+		0% {opacity: 0;}
+		50% {opacity: 1;}
+		100% {opacity:0;}
+	}
+
+	#lamp-two img {
+		top: 90vh;
+		margin-left: -5vw;
+		width: 50vw;
+		opacity: 0;
+		animation: blink 2.5s 0.6s ease infinite;
+	}
+
+	#hallway {
+		position: relative;
+		top: 5vh;
+		margin-left: 3.5vw;
+		width: 87vw;
+		font-size: 3.5rem;
+	}
+
+	#mirror {
+		position: relative;
+		top: 6vh;
+		margin-left: 3.5vw;
+		width: 87vw;
+		font-size: 3.5rem;
+		transform: scale(1, -1);
+	        -moz-transform: scale(1, -1);
+	        -webkit-transform: scale(1, -1);
+	        -o-transform: scale(1, -1);
+	        -ms-transform: scale(1, -1);
+	        transform: scale(1, -1);
+	}
+
+	#light-lamps {
+		position: relative;
+		top: 12vh;
+		width: 70vw;
+		margin-left: 6vw;
+		font-size: 4rem;
+		padding: 8vh;
+		padding-bottom: 12vh;
+	}
+
+	.page-four {
+		position: relative;
+		top: 12vh;
+		margin-left: -2vw;
+		width: 100vw;
+		color: black;
+		height: 452vh;
+	}
+
+	#four-bg img {
+		position: absolute;
+		width: 102vw;
+		height: 457vh;
+	}
+
+	#part-one {
+		position: relative;
+		top: 8vh;
+		width: 70vw;
+		margin-left: 28vw;
+		font-size: 2.5rem;
+	}
+
+	#dead {
+		position: relative;
+		top: 12vh;
+		margin-left: 10vw;
+		font-size: 3.75rem;
+		
+	}
+
+	#after-death {
+		position: relative;
+		top: 12vh;
+		margin-left: 10vw;
+		font-size: 2.5rem;
+		width: 80vw;
+	}
+
+	#unending {
+		position: relative;
+		top: 15vh;
+		margin-left: 22vw;
+		font-size: 7.5rem;
+		width: 80vw;
+		z-index: 10;
+	}
+
+	.unending-repeat {
+		position: absolute;
+		color: #BE7D68;
+		top: 72vh;
+		margin-left: 50vw; 
+		font-size: 7.5rem;
+		z-index: 0;
+		opacity: 0;
+		animation: show 1s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	@keyframes show {
+		0% {opacity: 0;}
+		100% {opacity: 0.75;}
+	}
+
+	#u-three {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-four {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-five {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-six {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-seven {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-eight {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-nine {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-ten {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-eleven {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-twelve {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-thirteen {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-fourteen {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-fifteen {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-sixteen {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-seventeen {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-eighteen {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-nineteen {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-twenty {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-twentyone {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-twentytwo {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-twentythree {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-twentyfour {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-twentyfive {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-twentysix {
+		opacity: 0;
+		animation: show 0.5s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#u-twentyseven {
+		opacity: 0;
+		animation: show 1s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
+
+	#idealist {
+		position: relative;
+		top: 60vh;
+		margin-left: 4vw;
+		font-size: 2.5rem;
+		width: 92vw;
+	}
+
+	#repeat {
+		position: relative;
+		top: 60vh;
+		margin-left: 6vw;
+		font-size: 3.5rem;
+		width: 80vw;
+	}
+
+	#sphere {
+		position: relative;
+		top: 62vh;
+		margin-left: 15vw;
+		font-size: 6rem;
+		width: 82vw;
+	}
+
+	#five {
+		position: relative;
+		font-size: 3rem;
+		top: 68vh;
+		margin-left: 10vw;
+		z-index: 10;
+	}
+
+	#each-shelf {
+		position: relative;
+		font-size: 3rem;
+		top: 68vh;
+		margin-left: 15vw;
+		z-index: 10;
+
+	}
+
+	#letters {
+		position: relative;
+		font-size: 3rem;
+		top: 75vh;
+		width: 70vw;
+		margin-left: 25vw;
+		z-index: 10;
+	}
+
+	a:link {
+	color: #7D3636;
+	}
+
+	a:visited {
+	color: #9B6B82;
+	}
 }
 
-#bg-light img {
-	position: absolute;
-	width: 102vw;
-	top: -2vh;
-	left: -2vw;
-	height: 140vh;
-}
+@media (max-width: 767px) {
+	.page-three {
+		position: relative;
+		width: 100vw;
+		height: 160vh;
+	}
 
-body {
-	font-family: ivypresto-text, serif;
-	font-weight: 400;
-	font-style: normal;
-	color: white;
-}
+	#bg-light img {
+		position: absolute;
+		width: 102vw;
+		top: -2vh;
+		margin-left: -2vw;
+		height: 160vh;
+	}
 
-#lamp-one img {
-	top: 45vh;
-	left: 50vw;
-	width: 70vw;
-	opacity: 0;
-	animation: blink 2.75s ease infinite; 
-}
+	body {
+		font-family: ivypresto-text, serif;
+		font-weight: 400;
+		font-style: normal;
+		color: white;
+		overflow-x: hidden;
+	}
 
-@keyframes blink {
-	0% {opacity: 0;}
-	50% {opacity: 1;}
-	100% {opacity:0;}
-}
+	#lamp-one img {
+		top: 45vh;
+		margin-left: 50vw;
+		width: 70vw;
+		opacity: 0;
+		animation: blink 2.75s ease infinite; 
+	}
 
-#lamp-two img {
-	top: 90vh;
-	left: -5vw;
-	width: 50vw;
-	opacity: 0;
-	animation: blink 2.5s 0.6s ease infinite;
-}
+	@keyframes blink {
+		0% {opacity: 0;}
+		50% {opacity: 1;}
+		100% {opacity:0;}
+	}
 
-#hallway {
-	position: relative;
-	top: 5vh;
-	left: 3.5vw;
-	width: 95vw;
-	font-size: 4rem;
-}
+	#lamp-two img {
+		top: 90vh;
+		margin-left: -5vw;
+		width: 50vw;
+		opacity: 0;
+		animation: blink 2.5s 0.6s ease infinite;
+	}
 
-#mirror {
-	position: relative;
-	top: 6vh;
-	left: 4vw;
-	width: 95vw;
-	font-size: 4rem;
-	transform: scale(1, -1);
-        -moz-transform: scale(1, -1);
-        -webkit-transform: scale(1, -1);
-        -o-transform: scale(1, -1);
-        -ms-transform: scale(1, -1);
-        transform: scale(1, -1);
-}
+	#hallway {
+		position: relative;
+		top: 5vh;
+		margin-left: 3vw;
+		width: 93vw;
+		font-size: 2rem;
+	}
 
-#light-lamps {
-	position: relative;
-	top: 12vh;
-	width: 70vw;
-	left: 6vw;
-	font-size: 5rem;
-	padding: 8vh;
-}
+	#mirror {
+		position: relative;
+		top: 6vh;
+		margin-left: 3vw;
+		width: 93vw;
+		font-size: 2rem;
+		transform: scale(1, -1);
+	        -moz-transform: scale(1, -1);
+	        -webkit-transform: scale(1, -1);
+	        -o-transform: scale(1, -1);
+	        -ms-transform: scale(1, -1);
+	        transform: scale(1, -1);
+	}
 
-.page-four {
-	position: relative;
-	top: 12vh;
-	left: -2vw;
-	width: 100vw;
-	color: black;
-}
+	#light-lamps {
+		position: relative;
+		top: 12vh;
+		width: 70vw;
+		margin-left: 6vw;
+		font-size: 2.75rem;
+		padding: 8vh;
+	}
 
-#four-bg img {
-	position: absolute;
-	width: 102vw;
-}
+	.page-four {
+		position: relative;
+		top: -3vh;
+		left: -2vw;
+		width: 100vw;
+		color: black;
+		height: 380vh;
+	}
 
-#part-one {
-	position: relative;
-	top: 5vh;
-	width: 78vw;
-	left: 8vw;
-	font-size: 3.5rem;
-}
+	#four-bg img {
+		position: absolute;
+		width: 102vw;
+		height: 380vh;
+	}
 
-#dead {
-	position: relative;
-	top: 10vh;
-	left: 52vw;
-	font-size: 3.75rem;
-	
-}
+	#part-one {
+		position: relative;
+		top: 5vh;
+		width: 78vw;
+		left: 8vw;
+		font-size: 2rem;
+	}
 
-#after-death {
-	position: relative;
-	top: 10vh;
-	left: 5vw;
-	font-size: 1.75rem;
-	width: 92vw;
-}
+	#dead {
+		position: relative;
+		top: 10vh;
+		margin-left: 30vw;
+		font-size: 3rem;
+		
+	}
 
-#unending {
-	position: relative;
-	top: 12vh;
-	left: 5vw;
-	font-size: 7.5rem;
-	width: 80vw;
-}
+	#after-death {
+		position: relative;
+		top: 10vh;
+		left: 5vw;
+		font-size: 2rem;
+		width: 92vw;
+	}
 
-.unending-repeat {
-	position: absolute;
-	color: #BE7D68;
-	top: 72vh;
-	left: 40vw; 
-	font-size: 7.5rem;
-}
+	#unending {
+		position: relative;
+		top: 12vh;
+		margin-left: 5vw;
+		font-size: 5rem;
+		width: 80vw;
+	}
 
-#u-three {
-	opacity: 0.97;
-}
+	.unending-repeat {
+		position: absolute;
+		color: #BE7D68;
+		top: 105vh;
+		margin-left: 5vw; 
+		font-size: 5rem;
+		opacity: 0;
+		animation: show 1s;
+		animation-play-state: paused;
+ 		animation-delay: calc(var(--scroll) * -1s);
+ 		animation-fill-mode: both;
+	}
 
-#u-four {
-	opacity: 0.94;
-}
+	@keyframes show {
+		0% {opacity: 0;}
+		100% {opacity: 0.75;}
+	}
 
-#u-five {
-	opacity: 0.91;
-}
+	#u-three {
+		opacity: 0.97;
+	}
 
-#u-six {
-	opacity: 0.88;
-}
+	#u-four {
+		opacity: 0.94;
+	}
 
-#u-seven {
-	opacity: 0.85;
-}
+	#u-five {
+		opacity: 0.91;
+	}
 
-#u-eight {
-	opacity: 0.82;
-}
+	#u-six {
+		opacity: 0.88;
+	}
 
-#u-nine {
-	opacity: 0.79;
-}
+	#u-seven {
+		opacity: 0.85;
+	}
 
-#u-ten {
-	opacity: 0.76;
-}
+	#u-eight {
+		opacity: 0.82;
+	}
 
-#u-eleven {
-	opacity: 0.73;
-}
+	#u-nine {
+		opacity: 0.79;
+	}
 
-#u-twelve {
-	opacity: 0.70;
-}
+	#u-ten {
+		opacity: 0.76;
+	}
 
-#u-thirteen {
-	opacity: 0.67;
-}
+	#u-eleven {
+		opacity: 0.73;
+	}
 
-#u-fourteen {
-	opacity: 0.64;
-}
+	#u-twelve {
+		opacity: 0.70;
+	}
 
-#u-fifteen {
-	opacity: 0.61;
-}
+	#u-thirteen {
+		opacity: 0.67;
+	}
 
-#u-sixteen {
-	opacity: 0.58;
-}
+	#u-fourteen {
+		opacity: 0.64;
+	}
 
-#u-seventeen {
-	opacity: 0.55;
-}
+	#u-fifteen {
+		opacity: 0.61;
+	}
 
-#u-eighteen {
-	opacity: 0.52;
-}
+	#u-sixteen {
+		opacity: 0.58;
+	}
 
-#u-nineteen {
-	opacity: 0.49;
-}
+	#u-seventeen {
+		opacity: 0.55;
+	}
 
-#u-twenty {
-	opacity: 0.47;
-}
+	#u-eighteen {
+		opacity: 0.52;
+	}
 
-#u-twentyone {
-	opacity: 0.44;
-}
+	#u-nineteen {
+		opacity: 0.49;
+	}
 
-#u-twentytwo {
-	opacity: 0.41;
-}
+	#u-twenty {
+		opacity: 0.47;
+	}
 
-#u-twentythree {
-	opacity: 0.38;
-}
+	#u-twentyone {
+		opacity: 0.44;
+	}
 
-#u-twentyfour {
-	opacity: 0.35;
-}
+	#u-twentytwo {
+		opacity: 0.41;
+	}
 
-#u-twentyfive {
-	opacity: 0.31;
-}
+	#u-twentythree {
+		opacity: 0.38;
+	}
 
-#u-twentysix {
-	opacity: 0.28;
-}
+	#u-twentyfour {
+		opacity: 0.35;
+	}
 
-#u-twentyseven {
-	opacity: 0.25;
-}
+	#u-twentyfive {
+		opacity: 0.31;
+	}
 
-#idealist {
-	position: relative;
-	top: 40vh;
-	left: 6vw;
-	font-size: 2rem;
-	width: 85vw;
-}
+	#u-twentysix {
+		opacity: 0.28;
+	}
 
-#repeat {
-	position: relative;
-	top: 45vh;
-	left: 6vw;
-	font-size: 2rem;
-	width: 80vw;
-}
+	#u-twentyseven {
+		opacity: 0.25;
+	}
 
-#sphere {
-	position: relative;
-	top: 46vh;
-	left: 15vw;
-	font-size: 7.5rem;
-	width: 78vw;
+	#idealist {
+		position: relative;
+		top: 40vh;
+		margin-left: 6vw;
+		font-size: 2rem;
+		width: 85vw;
+	}
+
+	#repeat {
+		position: relative;
+		top: 45vh;
+		margin-left: 6vw;
+		font-size: 2rem;
+		width: 80vw;
+	}
+
+	#sphere {
+		position: relative;
+		top: 46vh;
+		margin-left: 12vw;
+		font-size: 3rem;
+		width: 80vw;
+	}
+
+	#five {
+		position: relative;
+		font-size: 2rem;
+		top: 50vh;
+		margin-left: 10vw;
+		z-index: 10;
+	}
+
+	#each-shelf {
+		position: relative;
+		font-size: 2rem;
+		top: 50vh;
+		margin-left: 15vw;
+		z-index: 10;
+
+	}
+
+	#letters {
+		position: relative;
+		font-size: 2rem;
+		top: 55vh;
+		width: 75vw;
+		margin-left: 20vw;
+		z-index: 10;
+	}
+
+
 }
