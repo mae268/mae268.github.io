@@ -89,3 +89,13 @@ h3 {
 	width: 40vw;
 	height: 40vw;
 }
+
+.grid {
+	position: absolute;
+	left: 50vw;
+	width: 45vw;
+	height: 45vw;
+	top: 123vh;
+	margin-bottom: 5vh;
+}
+
