@@ -215,7 +215,7 @@ body {
 
 	.bubble-grid {
 		width: 100vw;
-	  	height: 104vh;
+	  	height: 105vh;
 	  	display: grid;
 	 	grid-template-columns: repeat(10, 1fr);
 	 	grid-template-rows: repeat(0, 1fr);
