@@ -222,6 +222,7 @@ body {
 	 	overflow: hidden;
 	 	position: relative;
  		top: 0vh;
+ 		left: 0vw;
 	}
 
 	.bubble-grid .bubble {
