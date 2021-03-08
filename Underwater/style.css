@@ -1,0 +1,304 @@
+body {
+  background-image: linear-gradient(180deg, #18ffe7, #1216b0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bubble-grid {
+	width: 100vw;
+  	height: 101vh;
+  	display: grid;
+ 	grid-template-columns: repeat(10, 1fr);
+ 	grid-template-rows: repeat(0, 1fr);
+ 	overflow: hidden;
+ 	top: -1vh;
+}
+
+.bubble-grid .bubble {
+	border-radius: 50%;
+	opacity: 0.3;
+	width: 100%;
+	height: 20%;
+	position: relative;
+	top: 80vh;
+	background-image: radial-gradient(#cafdbf, #feb2be);
+	animation: fade 2.5s infinite;
+	overflow: hidden;
+}
+
+@keyframes fade {
+	0% {opacity: 0.3;}
+	50% {opacity: 1;}
+	100% {opacity: 0.3;}
+}
+
+.bubble-grid #one {
+	width: 75%;
+	height: 15%;
+	animation: rise 5s infinite, fade 2s infinite;
+}
+
+@keyframes rise {
+	0% {top: 100vh;}
+	100% {top: -20vh;}
+}
+
+.bubble-grid #two {
+	width: 60%;
+	height: 12%;
+	animation: rise 5.5s 0.25s infinite, fade 1.5s infinite;
+}
+
+.bubble-grid #three {
+	width: 90%;
+	height: 18%;
+	animation: rise 6s infinite, fade 2.1s infinite;
+}
+
+.bubble-grid #four {
+	width: 50%;
+	height: 10%;
+	animation: rise 4.5s infinite, fade 1.25s infinite;
+}
+
+.bubble-grid #five {
+	width: 70%;
+	height: 15%;
+	animation: rise 4.8s infinite, fade 1.3s infinite;
+}
+
+.bubble-grid #six {
+	width: 95%;
+	height: 18.5%;
+	animation: rise 5.1s 0.25s infinite, fade 2s infinite;
+}
+
+.bubble-grid #seven {
+	width: 80%;
+	height: 16%;
+	animation: rise 5.6s 0.4s infinite, fade 1.9s infinite;
+}
+
+.bubble-grid #eight {
+	width: 45%;
+	height: 9%;
+	animation: rise 4.2s infinite, fade 1.2s infinite;
+}
+
+.bubble-grid #nine {
+	width: 65%;
+	height: 13%;
+	animation: rise 4.65s infinite, fade 1.4s infinite;
+}
+
+.bubble-grid #ten {
+	width: 82%;
+	height: 16%;
+	animation: rise 4.9s 0.15s infinite, fade 1.75s infinite;
+}
+
+@media (max-width: 1024px) {
+	body {
+	  background-image: linear-gradient(180deg, #18ffe7, #1216b0);
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  height: 100vh;
+	  overflow: hidden;
+	}
+
+	.bubble-grid {
+		width: 100vw;
+	  	height: 100vh;
+	  	display: grid;
+	 	grid-template-columns: repeat(10, 1fr);
+	 	grid-template-rows: repeat(0, 1fr);
+	 	overflow: hidden;
+	}
+
+	.bubble-grid .bubble {
+		border-radius: 50%;
+		opacity: 0.1;
+		width: 100%;
+		height: 20%;
+		position: relative;
+		top: 80vh;
+		background-image: radial-gradient(#cafdbf, #feb2be);
+		animation: fade 2.5s infinite;
+		overflow: hidden;
+	}
+
+	@keyframes fade {
+		0% {opacity: 0.1;}
+		50% {opacity: 1;}
+		100% {opacity: 0.1;}
+	}
+
+	.bubble-grid #one {
+		width: 75%;
+		height: 10%;
+		animation: rise 5s infinite, fade 2s infinite;
+	}
+
+	@keyframes rise {
+		0% {top: 100vh;}
+		100% {top: -20vh;}
+	}
+
+	.bubble-grid #two {
+		width: 60%;
+		height: 9%;
+		animation: rise 5.5s 0.25s infinite, fade 1.5s infinite;
+	}
+
+	.bubble-grid #three {
+		width: 90%;
+		height: 12%;
+		animation: rise 6s infinite, fade 2.1s infinite;
+	}
+
+	.bubble-grid #four {
+		width: 50%;
+		height: 8%;
+		animation: rise 4.5s infinite, fade 1.25s infinite;
+	}
+
+	.bubble-grid #five {
+		width: 70%;
+		height: 10%;
+		animation: rise 4.8s infinite, fade 1.3s infinite;
+	}
+
+	.bubble-grid #six {
+		width: 95%;
+		height: 12.5%;
+		animation: rise 5.1s 0.25s infinite, fade 2s infinite;
+	}
+
+	.bubble-grid #seven {
+		width: 80%;
+		height: 11%;
+		animation: rise 5.6s 0.4s infinite, fade 1.9s infinite;
+	}
+
+	.bubble-grid #eight {
+		width: 45%;
+		height: 7%;
+		animation: rise 4.2s infinite, fade 1.2s infinite;
+	}
+
+	.bubble-grid #nine {
+		width: 65%;
+		height: 9.5%;
+		animation: rise 4.65s infinite, fade 1.4s infinite;
+	}
+
+	.bubble-grid #ten {
+		width: 82%;
+		height: 11%;
+		animation: rise 4.9s 0.15s infinite, fade 1.75s infinite;
+	}
+}
+
+@media (max-width: 375px) {
+	body {
+	  background-image: linear-gradient(180deg, #18ffe7, #1216b0);
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  height: 100vh;
+	  overflow: hidden;
+	}
+
+	.bubble-grid {
+		width: 100vw;
+	  	height: 100vh;
+	  	display: grid;
+	 	grid-template-columns: repeat(10, 1fr);
+	 	grid-template-rows: repeat(0, 1fr);
+	 	overflow: hidden;
+	}
+
+	.bubble-grid .bubble {
+		border-radius: 50%;
+		opacity: 0.1;
+		width: 100%;
+		height: 20%;
+		position: relative;
+		top: 80vh;
+		background-image: radial-gradient(#cafdbf, #feb2be);
+		animation: fade 2.5s infinite;
+		overflow: hidden;
+	}
+
+	@keyframes fade {
+		0% {opacity: 0.1;}
+		50% {opacity: 1;}
+		100% {opacity: 0.1;}
+	}
+
+	.bubble-grid #one {
+		width: 75%;
+		height: 5%;
+		animation: rise 5s infinite, fade 2s infinite;
+	}
+
+	@keyframes rise {
+		0% {top: 100vh;}
+		100% {top: -20vh;}
+	}
+
+	.bubble-grid #two {
+		width: 60%;
+		height: 4%;
+		animation: rise 5.5s 0.25s infinite, fade 1.5s infinite;
+	}
+
+	.bubble-grid #three {
+		width: 90%;
+		height: 6%;
+		animation: rise 6s infinite, fade 2.1s infinite;
+	}
+
+	.bubble-grid #four {
+		width: 50%;
+		height: 3%;
+		animation: rise 4.5s infinite, fade 1.25s infinite;
+	}
+
+	.bubble-grid #five {
+		width: 70%;
+		height: 4.5%;
+		animation: rise 4.8s infinite, fade 1.3s infinite;
+	}
+
+	.bubble-grid #six {
+		width: 95%;
+		height: 6.5%;
+		animation: rise 5.1s 0.25s infinite, fade 2s infinite;
+	}
+
+	.bubble-grid #seven {
+		width: 80%;
+		height: 5.5%;
+		animation: rise 5.6s 0.4s infinite, fade 1.9s infinite;
+	}
+
+	.bubble-grid #eight {
+		width: 45%;
+		height: 3%;
+		animation: rise 4.2s infinite, fade 1.2s infinite;
+	}
+
+	.bubble-grid #nine {
+		width: 65%;
+		height: 4.2%;
+		animation: rise 4.65s infinite, fade 1.4s infinite;
+	}
+
+	.bubble-grid #ten {
+		width: 82%;
+		height: 5.7%;
+		animation: rise 4.9s 0.15s infinite, fade 1.75s infinite;
+	}
+}
