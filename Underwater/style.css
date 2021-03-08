@@ -221,8 +221,8 @@ body {
 	 	grid-template-rows: repeat(0, 1fr);
 	 	overflow: hidden;
 	 	position: relative;
- 		top: 0vh;
- 		left: 0vw;
+ 		margin-top: -1vh;
+ 		margin-left: -1vw;
 	}
 
 	.bubble-grid .bubble {
