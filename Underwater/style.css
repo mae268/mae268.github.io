@@ -111,11 +111,13 @@ body {
 
 	.bubble-grid {
 		width: 100vw;
-	  	height: 103vh;
+	  	height: 104vh;
 	  	display: grid;
 	 	grid-template-columns: repeat(10, 1fr);
 	 	grid-template-rows: repeat(0, 1fr);
 	 	overflow: hidden;
+	 	position: relative;
+ 		top: -3vh;
 	}
 
 	.bubble-grid .bubble {
@@ -213,11 +215,13 @@ body {
 
 	.bubble-grid {
 		width: 100vw;
-	  	height: 100vh;
+	  	height: 104vh;
 	  	display: grid;
 	 	grid-template-columns: repeat(10, 1fr);
 	 	grid-template-rows: repeat(0, 1fr);
 	 	overflow: hidden;
+	 	position: relative;
+ 		top: -3vh;
 	}
 
 	.bubble-grid .bubble {
