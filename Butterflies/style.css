@@ -1,0 +1,560 @@
+img {
+	width: 100%;
+}
+
+body {
+	background-image: linear-gradient(to bottom right, hotpink, cyan, violet);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.bf img {
+	position: absolute;
+	width: 15vw;
+	left: -5vw;
+	overflow: hidden;
+}
+
+.sparkle img {
+	position: absolute;
+	width: 5vw;
+	animation: blink 1s infinite;
+}
+
+.sparkle-large img {
+	position: absolute;
+	width: 8vw;
+	animation: blink 1s 0.5s infinite;
+	left: -5vw;
+}
+
+#one img {
+	top: 60vh;
+	left: -5vw;
+	width: 15vw;
+	animation: flyone 11s linear infinite;
+}
+
+@keyframes flyone {
+	0% {
+		left: -5vw;
+		top: 60vh;
+		opacity: 1;
+	}
+
+	25% {
+		left: 50vw;
+		top: 15vh;
+	}
+
+	50% {
+		left: 80vw;
+		top: 40vh;
+		opacity: 1;
+	}
+
+	75% {
+		top: 80vh;
+		left: 40vw;
+		opacity: 1;
+	}
+
+	100% {
+		left: 5vw;
+		top: 60vh;
+		opacity: 0;
+	}
+
+}
+
+#spkl-one img {
+	position: absolute;
+	top: 60vh;
+	left: -5vw;
+	animation: followone 11s linear infinite, blink 1s infinite;
+	opacity: 0;
+}
+
+@keyframes followone {
+	0% {
+		left: -5vw;
+		top: 60vh;
+	}
+
+	25% {
+		left: 45vw;
+		top: 15vh;
+	}
+
+	50% {
+		left: 75vw;
+		top: 40vh;
+	}
+
+	75% {
+		top: 80vh;
+		left: 40vw;
+	}
+
+	100% {
+		left: 5vw;
+		top: 50vh;
+	}
+
+}
+
+#large-one img {
+	animation: trail-one 11s linear infinite, blink 1s 0.25s infinite;
+	top: 61vh;
+}
+
+@keyframes trail-one {
+	0% {
+		left: -5vw;
+		top: 61vh;
+	}
+
+	25% {
+		left: 48vw;
+		top: 16vh;
+	}
+
+	50% {
+		left: 78vw;
+		top: 41vh;
+	}
+
+	75% {
+		top: 81vh;
+		left: 42vw;
+	}
+
+	100% {
+		left: 6vw;
+		top: 51vh;
+	}
+
+}
+
+@keyframes blink {
+	0% {opacity: 0;}
+	50% {opacity:1;}
+	100% {opacity:0;}
+}
+
+#two img {
+	top: 20vh;
+	animation: flytwo 12s linear 0.5s infinite;
+}
+
+@keyframes flytwo {
+	0% {
+		left: -5vw;
+		top: 20vh;
+	}
+
+	25% {
+		left: 50vw;
+		top: 60vh;
+	}
+
+	50% {
+		left: 100vw;
+		top: 40vh;
+	}
+
+	75% {
+		left: 60vw;
+		top: 10vh;
+		opacity: 1;
+	}
+
+	100% {
+		left: 5vw;
+		top: 30vh;
+		opacity: 0;
+	}
+}
+
+#spkl-two img {
+	top: 17vh
+	left: 10vw;
+	animation: followtwo 12s linear 0.5s infinite, blink 1s infinite;
+}
+
+@keyframes followtwo {
+	0% {
+		left: 10vw;
+		top: 17vh;
+	}
+
+	25% {
+		left: 65vw;
+		top: 57vh;
+	}
+
+	50% {
+		left: 115vw;
+		top: 37vh;
+	}
+
+	75% {
+		left: 80vw;
+		top: 7vh;
+	}
+
+	100% {
+		left: 20vw;
+		top: 27vh;
+	}
+}
+
+#large-two img {
+	top: 10vh;
+	left: 5vw;
+	animation: trail-two 12s linear 0.5s infinite, blink 1s 0.25s infinite;
+}
+
+@keyframes trail-two {
+	0% {
+		left: 5vw;
+		top: 10vh;
+	}
+
+	25% {
+		left: 58vw;
+		top: 50vh;
+	}
+
+	50% {
+		left: 112vw;
+		top: 35vh;
+	}
+
+	75% {
+		left: 72vw;
+		top: 0vh;
+	}
+
+	100% {
+		left: 12vw;
+		top: 20vh;
+	}	
+}
+
+#three img {
+	top: 40vh;
+	animation: flythree 10s linear infinite;
+}
+
+@keyframes flythree {
+	0% {
+		left: -5vw;
+		top: 40vh;
+		opacity: 1;
+	}
+
+	25% {
+		left: 50vw;
+		top: 80vh;
+	}
+
+	50% {
+		left: 100vw;
+		top: 50vh;
+		opacity: 1;
+	}
+
+	75% {
+		left: 60vw;
+		top: 20vh;
+		opacity: 1;
+	}
+
+	100% {
+		left: -5vw;
+		top: 40vh;
+		opacity: 0;
+	}
+}
+
+#spkl-three img {
+	left: -5vw;
+	top: 45vh;
+	animation: followthree 10s linear infinite, blink 1s 0.1s infinite;
+}
+
+@keyframes followthree {
+	0% {
+		left: -5vw;
+		top: 45vh;
+	}
+
+	25% {
+		left: 50vw;
+		top: 85vh;
+	}
+
+	50% {
+		left: 100vw;
+		top: 55vh;
+	}
+
+	75% {
+		left: 60vw;
+		top: 25vh;
+	}
+
+	100% {
+		left: -5vw;
+		top: 45vh;
+	}
+}
+
+#large-three img {
+	left: 02vw;
+	top: 40vh;
+	animation: trail-three 10s linear infinite, blink 1s 0.75s infinite;
+}
+
+@keyframes trail-three {
+	0% {
+		left: -2vw;
+		top: 40vh;
+	}
+
+	25% {
+		left: 53vw;
+		top: 80vh;
+	}
+
+	50% {
+		left: 103vw;
+		top: 50vh;
+	}
+
+	75% {
+		left: 63vw;
+		top: 20vh;
+	}
+
+	100% {
+		left: -3vw;
+		top: 40vh;
+	}
+}
+
+#four img {
+	top: -5vh;
+	animation: flyfour 12s linear 0.5s infinite;
+}
+
+@keyframes flyfour {
+	0% {
+		left: -5vw;
+		top: -5vh;
+		opacity: 1;
+	}
+
+	25% {
+		left: 50vw;
+		top: 90vh;
+	}
+
+	50% {
+		left: 100vw;
+		top: 60vh;
+		opacity: 1;
+	}
+
+	75% {
+		left: 50vw;
+		top: 5vh;
+		opacity: 1;
+	}
+
+	100% {
+		left: -5vw;
+		top: 15vh;
+		opacity: 0;
+	}
+}
+
+#spkl-four img {
+	top: 0vh;
+	animation: followfour 12s linear 0.5s infinite, blink 1s infinite;
+}
+
+@keyframes followfour {
+	0% {
+		left: -5vw;
+		top: 0vh;
+	}
+
+	25% {
+		left: 50vw;
+		top: 95vh;
+	}
+
+	50% {
+		left: 100vw;
+		top: 65vh;
+	}
+
+	75% {
+		left: 50vw;
+		top: 10vh;
+	}
+
+	100% {
+		left: -5vw;
+		top: 20vh;
+	}
+}
+
+#large-four img {
+	top: 5vh;
+	animation: trail-four 12s linear 0.5s infinite, blink 1s 0.25s infinite;
+}
+
+@keyframes trail-four {
+	0% {
+		left: -8vw;
+		top: 5vh;
+	}
+
+	25% {
+		left: 47vw;
+		top: 105vh;
+	}
+
+	50% {
+		left: 97vw;
+		top: 70vh;
+		opacity: 1;
+	}
+
+	75% {
+		left: 47vw;
+		top: 15vh;
+		opacity: 1;
+	}
+
+	100% {
+		left: -2vw;
+		top: 25vh;
+		opacity: 0;
+	}
+}
+
+#five img {
+	top: 80vh;
+	animation: flyfive 12s linear 1s infinite;
+}
+
+@keyframes flyfive {
+	0% {
+		left: -5vw;
+		top: 80vh;
+		opacity: 1;
+	}
+
+	25% {
+		left: 65vw;
+		top: 10vh;
+	}
+
+	50% {
+		left: 85vw;
+		top: 70vh;
+		opacity: 1;
+	}
+
+	75% {
+		left: 50vw;
+		top: 90vh;
+		opacity: 1;
+	}
+
+	100% {
+		left: -5vw;
+		top: 60vh;
+		opacity: 0;
+	}
+}
+
+#spkl-five img {
+	top: 80vh;
+	left: 0vw;
+	animation: followfive 12s linear 1s infinite, blink 1s 0.25s infinite;
+}
+
+@keyframes followfive {
+	0% {
+		left: 0vw;
+		top: 80vh;
+		opacity: 1;
+	}
+
+	25% {
+		left: 70vw;
+		top: 10vh;
+	}
+
+	50% {
+		left: 90vw;
+		top: 70vh;
+		opacity: 1;
+	}
+
+	75% {
+		left: 55vw;
+		top: 90vh;
+		opacity: 1;
+	}
+
+	100% {
+		left: 0vw;
+		top: 60vh;
+		opacity: 0;
+	}	
+}
+
+#large-five img {
+	top: 83vh;
+	left: -3vw;
+	animation: trail-five 12s linear 1s infinite, blink 1s infinite;
+}
+
+@keyframes trail-five {
+	0% {
+		left: -3vw;
+		top: 83vh;
+		opacity: 1;
+	}
+
+	25% {
+		left: 67vw;
+		top: 13vh;
+	}
+
+	50% {
+		left: 87vw;
+		top: 73vh;
+		opacity: 1;
+	}
+
+	75% {
+		left: 52vw;
+		top: 87vh;
+		opacity: 1;
+	}
+
+	100% {
+		left: -3vw;
+		top: 63vh;
+		opacity: 0;
+	}	
+}
