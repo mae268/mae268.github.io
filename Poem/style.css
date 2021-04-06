@@ -1,0 +1,19 @@
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(180, 90%, 38%);
+	transition: background-color .25s ease-in-out;
+}
+
+#poem {
+	font-size: 60px;
+	font-family: courier;
+	color: white;
+}

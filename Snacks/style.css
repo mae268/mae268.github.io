@@ -1,0 +1,66 @@
+.block {
+	position: absolute;
+}
+
+.cabinet {
+	position: relative;
+	width: 36vw;
+	height: 82vh;
+	left: 5vw;
+	top: 8vh;
+}
+
+#red {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background-color: red;
+	top: 0vh;
+}
+
+#brown {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	left: 50%;
+	background-color: brown;
+	top: 0vh;
+}
+
+.cabinet-two {
+	position: relative;
+	width: 51vw;
+	height: 50vh;
+	margin-top: -74vh;
+	margin-left: 43vw;
+}
+
+#green {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background-color: #9AFF4B;
+}
+
+#yellow {
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	height: 100%;
+	background-color: #FFF50D;
+}
+
+.drawer {
+	position: relative;
+	width: 51vw;
+	height: 28vh;
+	margin-left: 43vw;
+	margin-top: 4vh;
+}
+
+#blue {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: aqua;
+}
