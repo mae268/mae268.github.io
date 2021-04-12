@@ -1,0 +1,914 @@
+body {
+	overflow: scroll;
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	margin: 10px 0 10px 0;
+}
+
+.titlepage {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 103vh;
+	overflow: hidden;
+	display: flex;
+}
+
+.sidebar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10vw;
+	height: 100vh;
+	z-index: 10;
+}
+
+.popout {
+	
+}
+
+.popout-button {
+	position: relative;
+	background: yellow;
+	width: 100%; 
+	height: 32.85vh;
+	margin-bottom: 0.75vh;
+	writing-mode: vertical-lr;
+	text-orientation: mixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: brevier,sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 3.5vw;
+	color: hotpink;
+}
+.popout-content {
+	position: absolute;
+	background-color: yellow;
+	width: 55vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	padding: 5vw;
+	display: none;
+	z-index: 11;
+}
+
+.popout:hover .popout-content {
+	display: block;
+}
+
+.popout-title {
+	font-family: brevier,sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 3.5vw;
+	color: hotpink;
+}
+
+.popout-info {
+	font-family: dinosaur,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5vw;
+	width: 45vw;
+}
+
+#aqua-background1 {
+	background-color: cyan;
+	position: absolute;
+	width: 90vw;
+	top: 0;
+	left: 10vw;
+	height: 180vh;
+}
+
+#pink-background1 {
+	position: absolute; 
+	background-color: hotpink;
+	width: 75vw;
+	height: 225vh;
+	top: 0;
+	left: 48vw;
+	transform: rotate(30deg); 
+}
+
+#squint {
+	width: 50vw;
+	position: absolute;
+	left: 14vw;
+	top: 8vh;
+	z-index: 5;
+}
+
+#window-wrapper {
+	width: 70vw;
+	height: 50vw;
+	max-height: 100vh;
+	position: relative;
+	margin: auto 0 auto auto;
+}
+
+#car-window {
+	width: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#mirror-text {
+	position: absolute;
+	width: 54%;
+	top: 68%;
+	left: 20%;
+	z-index: 1;
+}
+
+#yun {
+	width: 30%;
+	position: absolute;
+	left: 20%;
+  top: 19%;
+	animation: show 4s ease infinite;
+	opacity: 0;
+	transform: rotate(10deg);
+}
+
+#amw {
+	position: absolute;
+	width: 38%;
+	left: 46%;
+  	top: 21%;
+	opacity: 0;
+	transform: rotate(15deg);
+	animation: show 4s ease 1s infinite;
+}
+
+#lilly {
+	position: absolute;
+	top: 18%;
+	left: 43%;
+	width: 39%;
+	opacity: 0;
+	transform: rotate(6deg);
+	animation: show 4s ease 3s infinite;
+}
+
+#ldd {
+	position: absolute;
+	top: 12%;
+	left: 18%;
+	width: 45%;
+	transform: rotate(6deg);
+	opacity: 0;
+	animation: show 4s ease 2s infinite;
+}
+
+@keyframes show {
+	0% {
+		opacity: 0;
+
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.second-page {
+	position: relative;
+	background-color: black;
+	width: 101vw;
+	height: 403vh;
+	top: -3vh;
+	left: -1vw;
+	font-family: dinosaur,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+#the-origins {
+	position: relative;
+	font-family: narly-outline, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: yellow;
+	font-size: 5vw;
+	left: 6vw;
+	top: 8vh;
+}
+
+#yellow-peril {
+	position: relative;
+	font-family: narly, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: yellow;
+	font-size: 8vw;
+	top: 8vh;
+	left: 25vw;
+}
+
+#intro {
+	position: relative;
+	font-size: 1.5vw;
+	color: yellow;
+	left: 23vw;
+	top: 9vh;
+	width: 42vw;
+}
+
+.highlight {
+	background-color: yellow;
+	color: black;
+}
+
+#origins-info {
+	position: relative;
+	font-size: 1.25vw;
+	color: white;
+	top: 14vh;
+	left: 12vw;
+	width: 45vw;
+	border: 0.25vw solid yellow;
+	padding: 2vw;
+}
+
+.yellow-line {
+	height: 0.25vw;
+	background-color: yellow;
+	position: absolute;
+}
+
+#o-yellow-line {
+	bottom: 12%;
+	left: 98.3%;
+	transform: rotate(35deg);
+	width: 10.6vw;
+}
+
+#conq {
+	position: relative;
+	width: 18vw;
+	top: -30vh;
+	left: 70vw;
+	border: 0.25vw solid yellow;
+	padding: 0.5vw 0.5vw 0.5vw 0.5vw;
+}
+
+#conq-cap {
+	color: white;
+	font-size: 1.25vw;
+	position: absolute;
+	left: -1.5%;
+	bottom: -30.6%;
+	width: 17.6vw;
+	border: 0.25vw solid yellow;
+	padding: 0.75vw;
+}
+
+#cmg {
+	position: relative;
+	width: 55vw;
+	top: -39vh;
+	left: 3vw;
+	border: 0.25vw solid yellow;
+	padding: 0.5vw;
+}
+
+#c-yellow-line {
+	left: 100.5%;
+	top: 60%;
+	width: 5.5vw;
+}
+
+#cmg-cap {
+	color: white;
+	font-size: 1.25vw;
+	position: absolute;
+	width: 54.5vw;
+	bottom: -47.3%;
+	left: -0.5%;
+	border: 0.25vw solid yellow;
+	padding: 0.75vw;
+}
+
+#cartoons {
+	color: white;
+	font-size: 1.25vw;
+	position: relative;
+	top: -89vh;
+	width: 30vw;
+	left: 65vw;
+	border: 0.25vw solid yellow;
+	padding: 1vw;
+}
+
+#policy {
+	color: white;
+	font-size: 1.25vw;
+	position: relative;
+	top: -72vh;
+	width: 65vw;
+	left: 18vw;
+	border: 0.25vw solid yellow;
+	padding: 2vw;
+}
+
+#yellow-t {
+	position: relative;
+	width: 40vw;
+	top: -67vh;
+	left: 7vw;
+	border: 0.25vw solid yellow;
+	padding: 0.5vw 0.5vw 1vw 0.5vw;
+}
+
+#yt-yellow-line {
+	left: 99%;
+	top: 32%;
+	width: 12.8vw;
+	transform: rotate(-25deg);
+}
+
+#yt-cap {
+	color: white;
+	font-size: 1.25vw;
+	position: absolute;
+	width: 39.5vw;
+	bottom: -8.2%;
+	left: -0.6%;
+	border: 0.25vw solid yellow;
+	padding: 0.75vw;
+}
+
+#yt-info {
+	color: white;
+	font-size: 1.25vw;
+	position: relative;
+	width: 32vw;
+	top: -145vh;
+	left: 60vw;
+	border: 0.25vw solid yellow;
+	padding: 1vw;
+}
+
+#yp-conc {
+	color: yellow;
+	font-size: 1.5vw;
+	position: relative;
+	width: 76vw;
+	left: 13vw;
+	top: -108vh;
+}
+
+#yp-source {
+	color: grey;
+	font-size: 1vw;
+	position: absolute;
+	bottom: 1vh;
+	left: 80.2vw;
+}
+
+.page-three {
+	position: relative;
+	background-color: cyan;
+	width: 101vw;
+	height: 1215vh;
+	top: -3vh;
+	left: -0.6vw;
+	font-family: dinosaur, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.yellowface-section {
+	position: relative;
+	width: 100vw;
+	top: 2vh;
+	height: 60vh;
+}
+
+.tv {
+	width: 30vw;
+	height: 39.7vh;
+	position: absolute;
+	top: 5vh;
+	left: 3vw;
+	border: 0.75vw solid black;
+	padding: 0;
+	display: block;
+}
+
+.threesec-title {
+	position: absolute;
+	font-family: narly-outline, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3.75vw;
+	color: yellow;
+	bottom: 5vh;
+	left: 1.5vw;
+}
+
+#yf-info {
+	position: absolute;
+	top: 42vh;
+	left: 9vw;
+	width: 85vw;
+	border: 0.5vw solid yellow;
+	padding: 2.5vw 1vw 1vw 1vw; 
+}
+
+.three-line {
+	height: 0.5vw;
+	background-color: black;
+	position: absolute;
+}
+
+.yf-intro {
+	position: relative;
+	top: 10vh;
+	width: 100vw;
+	height: 90vh;
+}
+
+#introtext {
+	position: absolute;
+	left: 5vw;
+	width: 50vw;
+	border: 0.5vw solid black;
+	padding: 1vw;
+}
+
+#three-line-intro {
+	position: absolute;
+	left: 100.5%;
+	top: 26%;
+	width: 10.5vw;
+}
+
+#kungfushow {
+	position: absolute;
+	width: 25vw;
+	left: 68vw;
+	border: 0.5vw solid black;
+	padding: 0.5vw 1vw 0.5vw 0.5vw;
+}
+
+#kungfushow-cap {
+	position: absolute;
+	width: 94%;
+	left: -1.8%;
+	top: 100%;
+	border: 0.5vw solid black;
+	padding: 0.75vw;
+}
+
+.eyf-intro {
+	position: relative;
+	top: -25vh;
+	width: 100vw;
+}
+
+#screen2 {
+	position: absolute;
+	left: 15vw;
+}
+
+#eyf-introinfo {
+	position: absolute;
+	left: 5vw;
+	width: 72vw;
+	top: 42vh;
+	border: 0.5vw solid yellow;
+	padding: 2.75vw 1vw 1vw 1vw; 
+}
+
+.eyf {
+	top: 53vh;
+	position: relative;
+}
+
+#yunio-video {
+	position: absolute;
+	top: 15.5vh;
+	left: 3vw;
+	border: 0.5vw solid black;
+	padding: 0.5vw;
+}
+
+#yunio-video video {
+	width: 49.5vw;
+}
+
+#yuniovid-cap {
+	position: absolute;
+	left: -0.5vw;
+	width: 49vw;
+	top: 100%;
+	border: 0.5vw solid black;
+	padding: 0.75vw;
+}
+
+#yunio-info {
+	position: absolute;
+	top: 12vh;
+	left: 54vw;
+	width: 40vw;
+	border: 0.5vw solid black;
+	padding: 1vw;
+}
+
+#eyf-content {
+	position: absolute;
+	top: 93vh;
+	width: 70vw;
+	left: 13.5vw;
+	border: 0.5vw solid black;
+	padding: 1vw;
+}
+
+.thegoodearth {
+	position: relative;
+	top: 184vh;
+}
+
+#amw2 {
+	position: absolute;
+	left: 3.5vw;
+	border: 0.5vw solid black;
+	padding: 0.5vw;
+	width: 30vw;
+}
+
+#tge-info {
+	position: absolute;
+	left: 42vw;
+	width: 52vw;
+	top: 10vh;
+	border: 0.5vw solid black;
+	padding: 1vw;
+}
+
+#three-line-tge1 {
+	position: absolute;
+	left: 100%;
+	top: 26%;
+	width: 7.75vw;
+	transform: rotate(-25deg);
+}
+
+#three-line-tge2 {
+	position: absolute;
+	left: 49%;
+	top: 112%;
+	width: 6.5vw;
+	transform: rotate(90deg);
+}
+
+#tge-actors {
+	position: absolute;
+	top: 74vh;
+	left: 46vw;
+	width: 46.5vw;
+	border: 0.5vw solid black;
+	padding: 0.5vw;
+}
+
+#tgeactors-cap {
+	position: absolute;
+	border: 0.5vw solid black;
+	padding: 0.75vw;
+	left: -1.1%;
+	top: 100%;
+	width: 96.9%;
+}
+
+#rainer-oscar {
+	position: absolute;
+	top: 90vh;
+	width: 25vw;
+	left: 11vw;
+	border: 0.5vw solid black;
+	padding: 0.5vw;
+}
+
+#rainer-cap {
+	position: absolute;
+	border: 0.5vw solid black;
+	padding: 0.75vw;
+	left: -1.8%;
+	top: 100%;
+	width: 94.3%;
+}
+
+#three-line-tge3 {
+	position: absolute;
+	top: 17%;
+	left: 100%;
+	width: 9vw;
+}
+
+.iyf-intro {
+	position: relative;
+	top: 338vh;
+}
+
+#screen3 {
+	position: absolute;
+	left: 42vw;
+}
+
+.iyf-info {
+	position: absolute;
+	top: 42vh;
+	left: 48vw;
+	width: 45vw;
+	border: 0.5vw solid yellow;
+	padding: 2.75vw 1vw 1vw 1vw; 
+}
+
+#iyf-info2 {
+	position: relative;
+	left: 2.5vw;
+	width: 39vw;
+}
+
+.iyf-middle {
+	position: relative;
+	top: 390vh;
+}
+
+#tsias {
+	position: absolute;
+	top: 10vh;
+	left: 4vw;
+	width: 28vw;
+	border: 0.5vw solid yellow;
+	padding: 0.5vw; 
+}
+
+#tsias-cap {
+	position: absolute;
+	top: 100%;
+	left: -1.8%;
+	width: 94.8%;
+	border: 0.5vw solid yellow;
+	padding: 0.75vw; 
+}
+
+#three-line-iyf1 {
+	position: absolute;
+	top: 50%;
+	left: 97%;
+	width: 16.8vw;
+	background-color: yellow;
+	transform: rotate(-28deg);
+}
+
+#iyf-content {
+	position: relative;
+	top: 78.5vh;
+	left: 38vw;
+	width: 52vw;
+	border: 0.5vw solid black;
+	padding: 1vw; 
+}
+
+.iyf-end {
+	position: relative;
+	top: 473.5vh;
+}
+
+#dos {
+	position: absolute;
+	left: 8vw;
+	width: 25vw;
+	border: 0.5vw solid black;
+	padding: 0.5vw; 
+}
+
+#three-line-iyf2 {
+	position: absolute;
+	left: 97%;
+	top: 40%;
+	width: 10.5vw;
+	transform: rotate(-35deg);
+}
+
+#three-line-iyf3 {
+	position: absolute;
+	bottom: -5.8%;
+	left: 62%;
+	width: 6.2vw;
+	transform: rotate(35deg);
+}
+
+#ahn {
+	position: absolute;
+	width: 42vw;
+	left: 43vw;
+	border: 0.5vw solid black;
+	padding: 0.5vw; 
+}
+
+#ahn-cap {
+	position: absolute;
+	top: 100%;
+	left: -1.3%;
+	width: 96.5%;
+	border: 0.5vw solid black;
+	padding: 0.75vw; 
+}
+
+#dos-info {
+	position: absolute;
+	width: 68vw;
+	left: 13vw;
+	top: 85vh;
+	border: 0.5vw solid black;
+	padding: 1vw; 
+}
+
+#videogames {
+	position: absolute;
+	top: 117vh;
+	left: 5vw;
+	width: 32vw;
+	border: 0.5vw solid black;
+	padding: 1vw; 
+}
+
+#three-line-iyf4 {
+	position: absolute;
+	top: 78%;
+	left: 100%;
+	width: 12vw;
+}
+
+#shadow-warrior {
+	position: absolute;
+	top: 117vh;
+	left: 51vw;
+	width: 41.5vw;
+	border: 0.5vw solid black;
+	padding: 0.5vw; 
+}
+
+#sw-cap {
+	position: absolute;
+	top: 100%;
+	left: -1.2%;
+	width: 96.5%;
+	border: 0.5vw solid black;
+	padding: 0.75vw; 
+}
+
+.eoyf-intro {
+	position: relative;
+	top: 649vh;
+}
+
+#screen4 {
+	position: absolute;
+	left: 15vw;
+}
+
+#eoyf-info {
+	position: absolute;
+	top: 42vh;
+	width: 90vw;
+	left: 5vw;
+	border: 0.5vw solid yellow;
+	padding: 2.75vw 1vw 1vw 1vw;
+}
+
+#viral-racism {
+	position: absolute;
+	top: 90vh;
+	left: 13.5vw;
+	border: 0.5vw solid yellow;
+	padding: 0.5vw;
+}
+
+#viral-racism video {
+	width: 72vw;
+}
+
+.eoyf {
+	position: relative;
+	top: 828.5vh;
+}
+
+#eoyf-content1 {
+	position: absolute;
+	top: 6vh;
+	left: 8vw;
+	width: 35vw;
+	border: 0.5vw solid black;
+	padding: 1vw;
+}
+
+#three-line-eoyf1 {
+	position: absolute;
+	top: 46%;
+	left: 97.8%;
+	width: 18.5vw;
+	transform: rotate(-26deg);
+}
+
+#aloha {
+	position: absolute;
+	width: 28vw;
+	left: 62vw;
+	border: 0.5vw solid black;
+	padding: 0.5vw;
+}
+
+#aloha-cap {
+	position: absolute;
+	top: 100%;
+	left: -1.75%;
+	width: 95%;
+	border: 0.5vw solid black;
+	padding: 0.75vw;
+}
+
+#eoyf-content2 {
+	position: absolute;
+	top: 45vh;
+	left: 13vw;
+	width: 27vw;
+	border: 0.5vw solid black;
+	padding: 1vw;
+}
+
+#three-line-eoyf2 {
+	position: absolute;
+	top: 70%;
+	left: 100%;
+	width: 20vw;
+}
+
+#ken {
+	position: absolute;
+	top: 59vh;
+	width: 28vw;
+	left: 62vw;
+	border: 0.5vw solid black;
+	padding: 0.5vw;
+}
+
+#ken-cap {
+	position: absolute;
+	top: 100%;
+	left: -1.75%;
+	width: 95%;
+	border: 0.5vw solid black;
+	padding: 0.75vw;
+}
+
+.eoyf-end {
+	position: relative;
+	top: 927.5vh;
+}
+
+#eoyf-end1 {
+	position: absolute;
+	left: 8vw;
+	width: 41vw;
+	border: 0.5vw solid black;
+	padding: 1vw;
+}
+
+#eoyf-end2 {
+	position: absolute;
+	top: 49vh;
+	left: 20vw;
+	width: 55vw;
+	border: 0.5vw solid yellow;
+	padding: 1vw;
+}
+
+#yf-source {
+	position: absolute;
+	font-size: 1vw;
+	bottom: 1vh;
+	left: 79.5vw;
+	color: teal;
+}

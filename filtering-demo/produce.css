@@ -1,0 +1,58 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  font-size: 1.6rem;
+  display: grid;
+  grid-template-rows: min-content auto min-content;
+}
+
+#info {
+  display: none;
+  background: white;
+  z-index: 10;
+  width: 50%;
+  height: 50%;
+  box-shadow: 0.3rem 0.3rem 1rem rgb(65, 65, 65);
+  padding: 1.5rem;
+}
+
+#info.show {
+	display: block;
+	position: absolute;
+}
+
+#tags {
+	display: flex;
+	justify-content: space-around;
+	padding: 1.5rem;
+	border-bottom: dashed .1rem grey;
+}
+
+@media (max-width: 650px) {
+	#tags {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-gap: 0.5rem;
+	}
+}
+
+#produce {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#produce img {
+	position: absolute;
+	width: 7.5rem;
+	height: 7.5rem;
+	object-fit: cover;
+	border-radius: 50%;
+	cursor: pointer;
+}
