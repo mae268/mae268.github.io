@@ -67,7 +67,6 @@ body {
 }
 
 #gy-glow:hover {
-	/*background-image: radial-gradient(#FFF50D 100%, #FFFA88 80%, #FFFEEE 27%);*/
 	background-image: radial-gradient(yellow, white);
 }
 
