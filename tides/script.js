@@ -21,7 +21,7 @@ circle.addEventListener('click', function() {
 
 //attempting to figure out how to trigger animations below
 // function moveOcean() {
-// 	document.ocean.animate('ocean');
+// 	ocean.animations
 // }
 
-// circle.addEventListener('mouseover', moveOcean);
+// circle.addEventListener('mouseenter', moveOcean);

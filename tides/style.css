@@ -24,6 +24,7 @@ body {
 
 #ocean {
 	position: absolute;
+	left: -2vw;
 	top: 30vh;
 	width: 103vw;
 	height: 100vh;
