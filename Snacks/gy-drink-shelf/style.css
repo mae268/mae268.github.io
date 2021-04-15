@@ -37,3 +37,26 @@ body {
 	bottom: 0vh;
 	background-color: #00D3E0;
 }
+
+.under-drinks {
+	position: relative;
+	width: 101vw;
+	height: 50vh;
+	left: -1vw;
+}
+
+.label {
+	position: absolute;
+	border-radius: 40%; 
+	width: 20vw;
+	height: 15vh;
+}
+
+#savory {
+	top: 5vh;
+	left: 5vw;
+	text-align: center;
+	background-color: #E10051;
+	color: white;
+	font-size: 4rem;
+}

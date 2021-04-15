@@ -3,7 +3,7 @@ body {
 	overflow: wrap;
 }
 
-.circle {
+#circle {
 	position: absolute;
 	border-radius: 50%;
 	width: 13vw;
@@ -14,7 +14,7 @@ body {
 	z-index: 10;
 }
 
-.ocean {
+#ocean {
 	position: absolute;
 	top: 100vh;
 	left: -2vw;

@@ -1,15 +1,17 @@
 let body = document.querySelector('body');
 
-let .circle = document.querySelector('circle');
+let circle = document.querySelector('#circle');
 
-let .ocean = document.querySelector('ocean');
+let ocean = document.querySelector('#ocean');
 
 function showNight() {
-	document.body.style.background = mediumslateblue;
+     document.body.style.color = 'mediumslateblue';
+     document.circle.style.color = 'white';
 }
 
 circle.addEventListener('click', showNight);
 
-function hoverElement(event) {
-  console.log(event.target.tagName);
+function moveOcean() {
+	document.ocean.animate
 }
+circle.addEventListener('mouseover', moveOcean);
