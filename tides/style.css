@@ -1,6 +1,8 @@
 body {
-	background-color: lightcyan;
+	background-color: paleturquoise;
 	overflow: wrap;
+	width: 100vw;
+	height: 100vh;
 }
 
 #circle {
@@ -12,20 +14,27 @@ body {
 	left: 43vw;
 	top: 5vh;
 	z-index: 10;
+	cursor: pointer;
 }
+
+#circle:hover ~ #ocean {
+	animation: 5s running infinite pull;
+}
+
 
 #ocean {
 	position: absolute;
-	top: 100vh;
-	left: -2vw;
-	width: 102vw;
+	top: 30vh;
+	width: 103vw;
 	height: 100vh;
-	background-image: linear-gradient(lightcyan, lightseagreen);
-	animation: pull 3s 1;
+	background-color: lightseagreen;
+	animation: 3s paused infinite pull;
 	z-index: 0;
 }
 
 @keyframes pull {
-	0% {top: 100vh;}
-	100% {top: 5vh;}
+	0% {top: 30vh;}
+	50% {top: 100vh;}
+	100% {top: 30vh;}
 }
+
