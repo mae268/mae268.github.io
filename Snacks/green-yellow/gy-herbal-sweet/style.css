@@ -1,0 +1,73 @@
+body {
+	min-width: 100vw;
+	height: 100vh;
+	background-image: radial-gradient(#9AFF4B, #FFF50D);
+	overflow-y: hidden;
+}
+
+.drink-container {
+	position: absolute;
+	display: flex;
+	overflow: auto;
+	width: 100%;
+	height: 80%;
+	z-index: 20;
+	top: 10%;
+}
+
+.food-container {
+	position: absolute;
+	display: flex;
+	overflow: auto;
+	width: 100%;
+	height: 80%;
+	z-index: 20;
+	top: 10%;
+}
+
+.shelf {
+	height: 50vh;
+	min-width: 101vw;
+	left: -1vw;
+}
+
+.shelf-top {
+	position: absolute;
+	width: 100%;
+	height: 25%;
+	bottom: 0vh;
+}
+
+#blue-shelf {
+	background-color: #75FFF7;
+}
+
+#orange-shelf {
+	background-color: #FF813A;
+}
+
+.shelf-side {
+	position: absolute;
+	width: 100%;
+	height: 7%;
+	bottom: 0vh;
+}
+
+#blue-shadow {
+	background-color: #00D3E0;
+}
+
+#red-shadow {
+	background-color: #E10051;
+}
+
+#drinks {
+	position: relative;
+	margin-top: -1vh;
+	margin-left: 0vw;
+}
+
+#food {
+	position: relative;
+}
+

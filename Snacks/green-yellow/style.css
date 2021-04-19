@@ -4,6 +4,8 @@ body {
 	background-color: 
 }
 
+
+
 .block {
 	position: absolute;
 }
@@ -60,14 +62,12 @@ body {
 	position: absolute;
 	top: -10%;
 	left: -10%;
-	width: 120%;
-	height: 120%;
-	border-radius: 120% / 60%;
+	width: 150%;
+	height: 150%;
 }
 
 #gy-glow:hover {
-	background-image: radial-gradient(yellow, rgba(255,255,255,0.5) 65%, rgba(255,255,255,0) 70%);
-	transition: ease;
+	background-image: radial-gradient(yellow, rgba(255,255,255,0) 75%);
 }
 
 .drawer {
