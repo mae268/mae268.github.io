@@ -1,7 +1,7 @@
 body {
 	min-width: 100%;
-	min-height: 100%;
-	background-color: 
+	height: 100vh;
+	overflow: wrap;
 }
 
 .block {
@@ -31,6 +31,22 @@ body {
 	left: 50%;
 	background-color: brown;
 	top: 0vh;
+}
+
+#rb-glow {
+	position: absolute;
+	background-origin: black;
+	margin-top: -30%;
+	margin-left: -25%;
+	width: 150%;
+	height: 150%;
+	border-radius: 110% / 105%;
+}
+
+#rb-glow:hover {
+	background-image: radial-gradient(rgba(255, 115, 132, 1), rgba(255,236,245,0.7)55%, rgba(255,255,208,0.1) 70%);
+	transition: ease;
+	z-index: 20;
 }
 
 .cabinet-two {
@@ -83,4 +99,19 @@ body {
 	width: 100%;
 	height: 100%;
 	background-color: aqua;
+}
+
+#b-glow {
+	position: absolute;
+	margin-top: -10%;
+	margin-left: -25%;
+	width: 150%;
+	height: 150%;
+	border-radius: 120% / 115%;
+}
+
+#b-glow:hover {
+	background-image: radial-gradient(rgba(172, 255, 235, 0.9), rgba(172,255,235,0.6) 60%, rgba(255,255,255,0) 70%);
+	transition: ease;
+	z-index: 30;
 }

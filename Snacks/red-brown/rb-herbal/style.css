@@ -1,0 +1,159 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	min-width: 100vw;
+	min-height: 100vh;
+	background-image: radial-gradient(#FFAAD3, #FF6D64 75%, #D97C5F);
+	font-family: bc-liguria,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.drink-container {
+	position: absolute;
+	display: flex;
+	align-items: flex-end;
+	overflow: auto;
+	width: 100%;
+	height: 80%;
+	z-index: 20;
+	top: 10%;
+}
+
+.drink-container > img {
+	max-height: 100%;
+}
+
+.shelf {
+	position: relative;
+	left: -1vw;
+	height: 50vh;
+	width: 101vw;
+
+}
+
+#drinks {
+	position: relative;
+	margin-top: 0vh;
+	margin-left: 0vw;
+}
+
+.blue-shelf {
+	position: absolute;
+	width: 100%;
+	height: 25%;
+	bottom: 0vh;
+	background-color: #CDFFF6;
+	z-index: 0;
+}
+
+.blue-shadow {
+	position: absolute;
+	width: 100%;
+	height: 7%;
+	bottom: 0vh;
+	background-color: #59E5EE;
+}
+
+.under-drinks {
+	position: relative;
+	width: 101vw;
+	height: 50vh;
+	left: -1vw;
+}
+
+.label {
+	position: absolute;
+	border-radius: 10vw / 5vw; 
+	width: 20vw;
+	height: 10vw;
+	font-size: 3.5vw;
+	background-color: #FFF740;
+	color: #FF7A00;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#savory {
+	top: 5vh;
+	left: 5vw;
+	animation: sa-float 4s linear infinite;
+}
+
+#savory:hover {
+	animation-play-state: paused;
+	background-color: #FFC700;
+	color: white;
+}
+
+@keyframes sa-float {
+	0% {
+		top: 5vh;
+		left: 5vw;
+	}
+
+	50% {
+		top: 15vh;
+		left: 80vw;
+	}
+
+	70% {
+		top: 28vh;
+		left: 50vw;
+	}
+
+	100% {
+		top: 5vh;
+		left: 5vw;
+	}
+}
+
+#sweet {
+	top: 25vh;
+	left: 75vw;
+	animation: sw-float 4s linear 0.5s infinite;
+}
+
+#sweet:hover {
+	animation-play-state: paused;
+	background-color: #FFC700;
+	color: white;
+}
+
+@keyframes sw-float {
+	0% {
+		top: 25vh;
+		left: 75vw;
+	}
+
+	50% {
+		top: 32vh;
+		left: 2vw;
+	}
+
+	70% {
+		top: 2vh;
+		left: 35vw;
+	}
+
+	100% {
+		top: 25vh;
+		left: 75vw;
+	}
+
+.shelf {
+	position: relative;
+	left: -1vw;
+	height: 50vh;
+	width: 101vw;
+}
+
+#drinks {
+	position: relative;
+	margin-top: 0vh;
+	margin-left: 0vw;
+}
+

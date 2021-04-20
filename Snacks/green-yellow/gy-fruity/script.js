@@ -13,9 +13,9 @@ base("png-snacks")
   .eachPage(gotPageOfSnacks, gotAllSnacks);
 
 // an empty array to hold our data
-var snacks = [];
+let snacks = [];
 
-let .drink-container = document.querySelector('drinks');
+let drinkContainer = document.querySelector('.drink-container');
 
 // callback function that receives our data
 function gotPageOfSnacks(records, fetchNextPage) {
@@ -52,10 +52,30 @@ function consoleLogSnacks() {
 
 // look through our airtable data, create elements
 function showSnacks() {
-  console.log("showSnacks()");
-  snacks.forEach((snack) => {
-    var snackImage = document.createElement("img");
-    snackImage.src = snack.fields.pics[0].url;
-    document.body.append(snackImage);
-  });
+  console.log(Object.values(snacks));
+  console.log(snacks[1].fields.type.includes('fruity'))
+  let snackArray = Object.values(snacks);
+  
+  let fruityDrinks = snackArray.filter(a =>{
+   console.log(a)
+    if (a.fields){
+      return true; 
+    } else {
+      return false;
+    }
+  })
+
+  let filter2 = fruityDrinks.filter(a =>{
+  if (a.fields.type.includes('fruity') &&(a.fields.color.includes('yellow')||a.fields.color.includes('green'))) {
+    return true;
+  } else {
+    return false
+  }
+})
+  filter2.forEach((item,i)=>{
+    var snackImage = document.createElement('img');
+    snackImage.src = item.fields.pics[0].url;
+    drinkContainer.append(snackImage);
+  })
+console.log(filter2)
 }

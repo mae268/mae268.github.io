@@ -11,9 +11,21 @@ body {
 	font-style: normal;
 }
 
+.drink-container {
+	position: absolute;
+	display: flex;
+	overflow: auto;
+	width: 100%;
+	height: 90%;
+	z-index: 20;
+}
+
 .shelf {
+	position: relative;
+	left: -1vw;
 	height: 50vh;
-	width: 100vw;
+	width: 101vw;
+
 }
 
 #drinks {
@@ -28,6 +40,7 @@ body {
 	height: 25%;
 	bottom: 0vh;
 	background-color: #75FFF7;
+	z-index: 0;
 }
 
 .blue-shadow {
@@ -47,16 +60,93 @@ body {
 
 .label {
 	position: absolute;
-	border-radius: 40%; 
+	border-radius: 10vw / 5vw; 
 	width: 20vw;
-	height: 15vh;
+	height: 10vw;
+	font-size: 3.5vw;
+	background-color: #FF6E1E;
+	color: #FBFF36;
+	display:flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #savory {
 	top: 5vh;
 	left: 5vw;
-	text-align: center;
+	animation: sa-float 4s linear infinite;
+}
+
+#savory:hover {
+	animation-play-state: paused;
 	background-color: #E10051;
 	color: white;
-	font-size: 4rem;
+}
+
+@keyframes sa-float {
+	0% {
+		top: 5vh;
+		left: 5vw;
+	}
+
+	50% {
+		top: 15vh;
+		left: 80vw;
+	}
+
+	70% {
+		top: 28vh;
+		left: 50vw;
+	}
+
+	100% {
+		top: 5vh;
+		left: 5vw;
+	}
+}
+
+#sweet {
+	top: 25vh;
+	left: 75vw;
+	animation: sw-float 4s linear 0.5s infinite;
+}
+
+#sweet:hover {
+	animation-play-state: paused;
+	background-color: #E10051;
+	color: white;
+}
+
+@keyframes sw-float {
+	0% {
+		top: 25vh;
+		left: 75vw;
+	}
+
+	50% {
+		top: 32vh;
+		left: 2vw;
+	}
+
+	70% {
+		top: 2vh;
+		left: 35vw;
+	}
+
+	100% {
+		top: 25vh;
+		left: 75vw;
+	}
+
+.shelf {
+	position: relative;
+	left: -1vw;
+	height: 50vh;
+	width: 101vw;
+}
+
+#drinks {
+	position: relative;
+	margin-top: 0vh;
+	margin-left: 0vw;
 }
