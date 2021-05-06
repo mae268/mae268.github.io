@@ -68,8 +68,8 @@ function textEntry(event) {
 	body.append(understood);
 
 	let howtowrite = document.createElement('div');
-	understood.classList.add('howtowrite');
-	understood.innerText = "写怎么办？";
+	howtowrite.classList.add('howtowrite');
+	howtowrite.innerText = "写怎么办?";
 	body.append(howtowrite);
 		}
 	}

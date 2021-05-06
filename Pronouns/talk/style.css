@@ -31,6 +31,7 @@ body {
 }
 
 .howtowrite {
+	float: left;
 	background-color: #B5FFF3;
 	width: 45vw;
 	height: 10vh;
