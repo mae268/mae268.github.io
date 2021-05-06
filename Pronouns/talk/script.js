@@ -58,9 +58,8 @@ function textEntry(event) {
       explain.classList.add('question');
       explain.innerText = "我们说中文的时候不需要担心代词, 因为男女的代词发因是一样的";
       body.append(explain);
-    }
 
-	}else if (!explainEntered) {
+	} else if (!explainEntered) {
 	explainEntered = true;
 
 	let understood = document.createElement('div');
@@ -72,6 +71,7 @@ function textEntry(event) {
 	understood.classList.add('howtowrite');
 	understood.innerText = "写怎么办？";
 	body.append(howtowrite);
+		}
 	}
 }
 

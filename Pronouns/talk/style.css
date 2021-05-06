@@ -37,8 +37,10 @@ body {
 }
 
 #text-input {
+	position: sticky;
 	width: 50vw;
 	height: 10vh;
 	font-size: 4vw;
+	bottom: 2vh;
 }
 
