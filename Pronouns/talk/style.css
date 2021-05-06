@@ -24,17 +24,21 @@ body {
 	padding: 1.75vw;
 }
 
+button {
+	font-size: 4vw;
+	padding: 1vw;
+	align-items: center;
+}
+
 .understood {
 	background-color: white;
 	width: 45vw;
-	height: 10vh;
 }
 
 .howtowrite {
 	float: left;
 	background-color: #B5FFF3;
 	width: 45vw;
-	height: 10vh;
 }
 
 #text-input {
@@ -42,6 +46,9 @@ body {
 	width: 50vw;
 	height: 10vh;
 	font-size: 4vw;
-	bottom: 2vh;
+	margin-top: 5vh;
+	top: 100vh;
 }
+
+
 

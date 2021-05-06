@@ -1,7 +1,7 @@
 let textInput = document.querySelector('#text-input');
 let messageBin = document.querySelector('#message-bin');
 let body = document.querySelector('body');
-
+let howtowrite = document.querySelector('howtowrite');
 
 let nameEntered = false;
 let pronounsEntered = false;
@@ -59,27 +59,25 @@ function textEntry(event) {
       explain.innerText = "我们说中文的时候不需要担心代词, 因为男女的代词发因是一样的";
       body.append(explain);
 
-	} else if (!explainEntered) {
-	explainEntered = true;
+		let understood = document.createElement('button');
+		understood.classList.add('understood');
+		understood.innerText = "明白了";
+		body.append(understood);
 
-	let understood = document.createElement('div');
-	understood.classList.add('understood');
-	understood.innerText = "明白了";
-	body.append(understood);
-
-	let howtowrite = document.createElement('div');
-	howtowrite.classList.add('howtowrite');
-	howtowrite.innerText = "写怎么办?";
-	body.append(howtowrite);
+		let howtowrite = document.createElement('button');
+		howtowrite.classList.add('howtowrite');
+		howtowrite.innerText = "写怎么办?";
+		body.append(howtowrite);
 		}
+	}
+
+	howtowrite.onclick = function() {
+		location.replace('../write/index.html')
 	}
 }
 
 
   	
- 
- 
-
 
 
 textInput.addEventListener('keyup', textEntry);
