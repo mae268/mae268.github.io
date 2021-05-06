@@ -8,7 +8,7 @@ body {
 	top: 5vh;
 	left: 12vw;
 	width: 75vw;
-	height: 100vh;
+	padding: 5vh;
 	animation: slide 2s 1;
 }
 
@@ -28,6 +28,7 @@ body {
 }
 
 .question {
+	position: relative;
 	font-family: hellofont-id-daocaoren,sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -39,32 +40,20 @@ body {
 }
 
 .answer {
+	position: relative;
 	font-family: reenie-beanie,sans-serif;
 	font-weight: 500;
 	font-style: normal;
 	text-align: right;
-	color: #0011AD;
 	font-size: 4vw;
-	border-radius: 10vw;
-	margin: 2vh;
 	padding: 1.75vw;
-}
-
-.understood {
-	background-color: white;
-	width: 45vw;
-	height: 10vh;
-}
-
-.howtowrite {
-	background-color: #B5FFF3;
-	width: 45vw;
-	height: 10vh;
+	margin-bottom: 5vh;
 }
 
 #text-input {
-	position: sticky;
-	bottom: 5vh;
+	position: absolute;
+	margin-top: 5vh;
+	top: 105%;
 	left: 5vw;
 	width: 50vw;
 	height: 10vh;

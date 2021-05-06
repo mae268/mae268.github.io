@@ -4,6 +4,17 @@ body {
 	font-family: ar-yuangbstd, sans-serif;
 	font-weight: 500;
 	font-style: normal; 
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
+#text-input {
+	position: sticky;
+	top: 100vh;
+	margin-top: 10vh;
+	width: 50vw;
+	height: 10vh;
+	font-size: 4vw;
 }
 
 .question {
@@ -31,11 +42,13 @@ button {
 }
 
 .understood {
+	position: relative;
 	background-color: white;
 	width: 45vw;
 }
 
 .howtowrite {
+	position: relative;
 	float: left;
 	background-color: #B5FFF3;
 	width: 45vw;
@@ -43,11 +56,10 @@ button {
 
 #text-input {
 	position: sticky;
+	top: 110%;
 	width: 50vw;
 	height: 10vh;
 	font-size: 4vw;
-	margin-top: 5vh;
-	top: 100vh;
 }
 
 

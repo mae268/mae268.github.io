@@ -1,7 +1,7 @@
 let textInput = document.querySelector('#text-input');
-let messageBin = document.querySelector('#message-bin');
 let body = document.querySelector('body');
 let howtowrite = document.querySelector('howtowrite');
+
 
 let nameEntered = false;
 let pronounsEntered = false;
@@ -40,7 +40,6 @@ function textEntry(event) {
     } else if (!pronounsEntered) {
       personInfo.pronouns = textInput.value;
       pronounsEntered = true;
-      console.log('pronouns were entered')
 
       let answer = document.createElement('div');
       answer.classList.add('answer');
@@ -68,12 +67,12 @@ function textEntry(event) {
 		howtowrite.classList.add('howtowrite');
 		howtowrite.innerText = "写怎么办?";
 		body.append(howtowrite);
-		}
-	}
 
-	howtowrite.onclick = function() {
-		location.replace('../write/index.html')
+		howtowrite.onclick = function() {
+		window.location.replace('../write/index.html')
+		}	
 	}
+}
 }
 
 

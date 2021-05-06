@@ -1,6 +1,6 @@
 let textInput = document.querySelector('#text-input');
-let messageBin = document.querySelector('#message-bin');
 let body = document.querySelector('body');
+let paper = document.querySelector('.paper');
 
 
 let nameEntered = false;
@@ -21,19 +21,17 @@ function textEntry(event) {
       personInfo.name = textInput.value;
       nameEntered = true;
 
-      // add their answer
       let answer = document.createElement('div');
       answer.classList.add('answer');
       answer.innerText = textInput.value;
-      body.append(answer);
+      paper.append(answer);
 
       console.log('name was entered');
 
-      // add next step question
       let askPronouns = document.createElement('div');
       askPronouns.classList.add('question');
       askPronouns.innerText = "很高兴认识你，什么是你的代词？";
-      body.append(askPronouns);
+      paper.append(askPronouns);
 
       textInput.value = '';
 
@@ -45,17 +43,21 @@ function textEntry(event) {
       let answer = document.createElement('div');
       answer.classList.add('answer');
       answer.innerText = textInput.value;
-      body.append(answer);
+      paper.append(answer);
 
       let response = document.createElement('div');
       response.classList.add('question');
       response.innerText = "写中文的时候，用代词：";
-      body.append(response);
+      paper.append(response);
 
       textInput.value = '';
 
       let explain = document.createElement('div');
       explain.classList.add('question');
       explain.innerText = "她/她的";
-      body.append(explain);
+      paper.append(explain);
     }
+   } 
+ }
+
+ textInput.addEventListener('keyup', textEntry);
