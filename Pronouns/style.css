@@ -1,0 +1,56 @@
+body {
+	min-width: 100%;
+	min-height: 100%;
+	background-color: #D6FFA3;
+	position: relative;
+	font-family: ar-yuangbstd, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+a:link {
+	color: #9A30DC;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.box {
+	position: relative;
+	left: 5vw;
+}
+
+#chinese {
+	position: relative;
+	top: 60vh;
+	font-size: 6.5vw;
+}
+
+.english {
+	position: relative;
+	top: 60vh;
+	font-size: 4vw;
+	margin-top: 2vh;
+}
+
+#question-mark {
+	position: absolute;
+	display: inline;
+	font-family: moniker, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 30vw;
+	top: -50vh;
+	color: #9A30DC;
+}
+
+#question-mark:hover {
+	color: #D0B4FF;
+	text-decoration: none;
+}
+
+
+

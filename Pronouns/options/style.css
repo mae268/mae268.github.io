@@ -1,0 +1,37 @@
+body {
+	min-width: 100%;
+	min-height: 100%;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+.block {
+	height: 50vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+#orange {
+	background-color: #FE3D00;
+	font-family: ar-yuangbstd, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 15vw;
+	color: white;
+}
+
+#blue {
+	background-color: #B5FFF3;
+	font-family: hellofont-id-daocaoren,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15vw;
+	text-align: center;
+	color: black;
+}

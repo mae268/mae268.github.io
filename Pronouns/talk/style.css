@@ -1,0 +1,44 @@
+body {
+	background-color: #FE3D00;
+	background-color: #FE3D00;
+	font-family: ar-yuangbstd, sans-serif;
+	font-weight: 500;
+	font-style: normal; 
+}
+
+.question {
+	font-size: 4vw;
+	left: 5.5vw;
+	background-color: #D6FFA3;
+	margin: 2vh;
+	border-radius: 10vw;
+	padding: 1.75vw;
+}
+
+.answer {
+	text-align: right;
+	background-color: white;
+	font-size: 4vw;
+	border-radius: 10vw;
+	margin: 2vh;
+	padding: 1.75vw;
+}
+
+.understood {
+	background-color: white;
+	width: 45vw;
+	height: 10vh;
+}
+
+.howtowrite {
+	background-color: #B5FFF3;
+	width: 45vw;
+	height: 10vh;
+}
+
+#text-input {
+	width: 50vw;
+	height: 10vh;
+	font-size: 4vw;
+}
+
