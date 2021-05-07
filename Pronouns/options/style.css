@@ -19,6 +19,9 @@ a:link {
 
 #orange {
 	background-color: #FE3D00;
+}
+
+#talk {
 	font-family: ar-yuangbstd, sans-serif;
 	font-weight: 500;
 	font-style: normal;
@@ -28,6 +31,15 @@ a:link {
 
 #blue {
 	background-color: #B5FFF3;
+	font-family: hellofont-id-daocaoren,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15vw;
+	text-align: center;
+	color: black;
+}
+
+#write {
 	font-family: hellofont-id-daocaoren,sans-serif;
 	font-weight: 400;
 	font-style: normal;
