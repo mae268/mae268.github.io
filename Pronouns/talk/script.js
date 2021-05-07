@@ -2,6 +2,7 @@ let textInput = document.querySelector('#text-input');
 let body = document.querySelector('body');
 let howtowrite = document.querySelector('howtowrite');
 let one = document.querySelector('#q-one');
+let gender = document.querySelector('#gender')
 
 let nameEntered = false;
 let pronounsEntered = false;
@@ -55,6 +56,7 @@ function textEntry(event) {
 
     } else if (!pronounsEntered) {
       personInfo.pronouns = textInput.value;
+      // personInfo.pronouns.setAttribute('list', x);
       pronounsEntered = true;
 
       let answer = document.createElement('div');
