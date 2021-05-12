@@ -53,10 +53,10 @@ function textEntry(event) {
 	};
 
       textInput.value = '';
+      textInput.setAttribute('list', 'gender');
 
     } else if (!pronounsEntered) {
       personInfo.pronouns = textInput.value;
-      // personInfo.pronouns.setAttribute('list', x);
       pronounsEntered = true;
 
       let answer = document.createElement('div');
